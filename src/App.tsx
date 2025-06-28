@@ -1,66 +1,40 @@
 import React from 'react';
+import ApiDisplay from './components/ApiDisplay';
 
 const TopBar: React.FC = () => (
-    <header style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        padding: '16px 32px',
-        background: '#222',
-        color: '#fff'
-    }}>
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/vpg.png" alt="VPG Icon" style={{ width: 40, height: 40, marginRight: 12 }} />
+    <header className="flex items-center justify-between px-8 py-4 bg-gray-800 text-white">
+        <div className="flex items-center">
+            <img src="/vpg.png" alt="VPG Icon" className="w-10 h-10 mr-3"/>
         </div>
-        <nav>
-            <a href="/" style={{ color: '#fff', margin: '0 12px', textDecoration: 'none' }}>Home</a>
-            <a href="/timer" style={{ color: '#fff', margin: '0 12px', textDecoration: 'none' }}>Timer</a>
-            <a href="/cat" style={{ color: '#fff', margin: '0 12px', textDecoration: 'none' }}>Cat</a>
-        </nav>
+        <div className="flex items-center space-x-6">
+            <nav className="flex space-x-6">
+                <a href="/aboutme" className="text-white no-underline hover:text-blue-400 transition-colors">Time</a>
+                <a href="/" className="text-white no-underline hover:text-blue-400 transition-colors">About Me</a>
+                <a href="/cat" className="text-white no-underline hover:text-blue-400 transition-colors">Cat</a>
+            </nav>
+        </div>
     </header>
 );
 
 const MainContent: React.FC = () => (
-    <main style={{ maxWidth: 700, margin: '40px auto', padding: 24 }}>
-        <h1>Hack Club YSWS Timer</h1>
-        <p>
-            This project helps you track which Hack Club YSWS (Your Ship, We Ship) programs are currently running, with live timers for each event.
+    <main className="max-w-2xl mx-auto my-10 p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">Welcome to My Page</h1>
+        <p className="text-gray-700 dark:text-gray-300">
+            This is a simple React application with a top bar and main content area. You can navigate using the links in the top bar.
         </p>
-        <p>
-            <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer">Visit Hack Club</a> &nbsp;|&nbsp;
-            <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer">Official Website</a>
+        <p className="mt-4 text-gray-700 dark:text-gray-300">
+            Feel free to explore the links provided in the top bar.
         </p>
-        <h2>What is Hack Club?</h2>
-        <p>
-            Hack Club is a global community of high school makers and coders. It empowers students to build projects, learn new skills, and collaborate with peers through events, clubs, and online programs.
-        </p>
-        <h2>About Me</h2>
-        <p>
-            <strong>Vaibhav Nargwani</strong>, 17<br />
-            A passionate programmer
-        </p>
-        <blockquote>
-            🎯 <strong>Philosophy</strong><br />
-            "An ugly win is still a win, A beautiful loss is still a loss. Results Matter"
-        </blockquote>
-        <p>
-            I believe in delivering solutions that work, focusing on functionality and user experience over perfectionism.
-        </p>
-        <ul>
-            <li>🎓 Student passionate about mobile development</li>
-            <li>📱 Android Developer crafting native mobile experiences</li>
-            <li>💡 Always learning and exploring new technologies</li>
-            <li>🎮 Interest in game-related projects and interactive applications</li>
-        </ul>
     </main>
 );
 
 function App() {
     return (
-        <>
+        <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-800 font-['Exo 2', sans-serif]">
             <TopBar />
             <MainContent />
-        </>
+            <ApiDisplay />
+        </div>
     );
 }
 
