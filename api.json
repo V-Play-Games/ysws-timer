@@ -7,8 +7,7 @@
       "slack": "https://hackclub.slack.com/archives/C015M4L9AHW",
       "slackChannel": "#summer-of-making",
       "status": "active",
-      "deadline": "2025-08-31T23:59:59",
-      "participants": 10985
+      "deadline": "2025-08-31T23:59:59"
     },
     {
       "name": "Reactive",
@@ -74,8 +73,7 @@
       "slack": "https://hackclub.slack.com/archives/C07LESGH0B0",
       "slackChannel": "#hackpad",
       "status": "active",
-      "deadline": "2025-03-16T23:59:59",
-      "participants": 719
+      "deadline": "2025-03-16T23:59:59"
     },
     {
       "name": "Sidequests",
@@ -101,8 +99,7 @@
       "slack": "https://hackclub.slack.com/archives/C07MQBTNVRU",
       "slackChannel": "#browser-buddy",
       "status": "active",
-      "deadline": "2025-03-19T23:59:59",
-      "participants": 22
+      "deadline": "2025-03-19T23:59:59"
     },
     {
       "name": "TerminalCraft",
@@ -149,8 +146,7 @@
       "slack": "https://hackclub.slack.com/archives/C08B7LF58TX",
       "slackChannel": "#infill",
       "status": "active",
-      "deadline": "2025-05-04T23:59:59",
-      "participants": 380
+      "deadline": "2025-05-04T23:59:59"
     },
     {
       "name": "Visioneer",
@@ -186,8 +182,7 @@
       "slack": "https://hackclub.slack.com/archives/C0853M4PCUA",
       "slackChannel": "#printboard",
       "status": "ended",
-      "deadline": "2025-02-16T23:59:59",
-      "participants": 94
+      "deadline": "2025-02-16T23:59:59"
     },
     {
       "name": "Minus Twelve",
@@ -247,8 +242,7 @@
       "details": [
         "Participants will receive a Minecraft Java Edition account upon successful submission.",
         "Support is available through our Slack community."
-      ],
-      "participants": 4
+      ]
     },
     {
       "name": "Cascade",
@@ -257,8 +251,7 @@
       "slack": "https://hackclub.slack.com/archives/C07QA8HD48N",
       "slackChannel": "#cascade-ysws",
       "status": "active",
-      "deadline": "2024-12-14T23:59:59",
-      "participants": 55
+      "deadline": "2024-12-14T23:59:59"
     },
     {
       "name": "Riceathon",
@@ -267,8 +260,7 @@
       "slack": "https://hackclub.slack.com/archives/C07MLF9A8H5",
       "slackChannel": "#riceathon",
       "status": "active",
-      "deadline": "2025-01-10T23:59:59",
-      "participants": 64
+      "deadline": "2025-01-10T23:59:59"
     },
     {
       "name": "Hacky Holidays",
@@ -305,8 +297,7 @@
       "slack": "https://hackclub.slack.com/archives/C078DFVL5LZ",
       "slackChannel": "#fraps",
       "status": "active",
-      "deadline": "2025-06-30T23:59:59",
-      "participants": 362
+      "deadline": "2025-06-30T23:59:59"
     },
     {
       "name": "Cider",
@@ -315,8 +306,7 @@
       "slack": "https://hackclub.slack.com/archives/C073DTGENJ2",
       "slackChannel": "#cider",
       "status": "active",
-      "deadline": null,
-      "participants": 34
+      "deadline": null
     },
     {
       "name": "10 Days of Tarot",
@@ -373,8 +363,7 @@
       "website": "https://sprig.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C02UN35M7LG",
       "slackChannel": "#sprig",
-      "status": "active",
-      "participants": 657
+      "status": "active"
     },
     {
       "name": "OnBoard",
@@ -382,8 +371,7 @@
       "website": "https://hackclub.com/onboard",
       "slack": "https://hackclub.slack.com/archives/C056AMWSFKJ",
       "slackChannel": "#electronics",
-      "status": "ended",
-      "participants": 1000
+      "status": "ended"
     },
     {
       "name": "Boba Drops",
@@ -391,8 +379,7 @@
       "website": "https://boba.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
       "slackChannel": "#boba",
-      "status": "active",
-      "participants": 1253
+      "status": "active"
     },
     {
       "name": "Swirl",
@@ -401,8 +388,7 @@
       "website": "https://swirl.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C08FR0LMVHD",
       "slackChannel": "#swirl",
-      "status": "active",
-      "participants": 40
+      "status": "active"
     },
     {
       "name": "OnBoard Live",
@@ -720,8 +706,7 @@
       "slack": "https://hackclub.slack.com/archives/C04GCH8A91D",
       "slackChannel": "#blot",
       "status": "ended",
-      "ended": "2024-11-23T23:59:59",
-      "participants": 192
+      "ended": "2024-11-23T23:59:59"
     },
     {
       "name": "Boba Manor",
@@ -748,8 +733,7 @@
       "slack": "https://hackclub.slack.com/archives/C07KYNWR10W",
       "slackChannel": "#llm / #zrl-land",
       "status": "ended",
-      "ended": "Ended October 1st",
-      "participants": 20
+      "ended": "Ended October 1st"
     },
     {
       "name": "Arcade",
@@ -758,8 +742,7 @@
       "slack": "https://hackclub.slack.com/archives/C06SBHMQU8G",
       "slackChannel": "#hack-hour",
       "status": "ended",
-      "ended": "Ended September 1st",
-      "participants": 1229
+      "ended": "Ended September 1st"
     },
     {
       "name": "The Bin",
@@ -768,8 +751,7 @@
       "slack": "https://hackclub.slack.com/archives/C01FXNNF6F2",
       "slackChannel": "#electronics",
       "status": "ended",
-      "ended": "Ended September 30th",
-      "participants": 277
+      "ended": "Ended September 30th"
     },
     {
       "name": "HAM Radio YSWS",
@@ -778,8 +760,7 @@
       "slack": "https://hackclub.slack.com/archives/C01G6UJT2RM",
       "slackChannel": "#hamradio",
       "status": "ended",
-      "ended": "2024-05-31T23:59:59",
-      "participants": 14
+      "ended": "2024-05-31T23:59:59"
     },
     {
       "name": "Trick or Trace",
@@ -797,8 +778,7 @@
       "slack": "https://hackclub.slack.com/archives/C07V5401VMY",
       "slackChannel": "#anchor",
       "status": "ended",
-      "ended": "2025-01-27T23:59:59",
-      "participants": 40
+      "ended": "2025-01-27T23:59:59"
     },
     {
       "name": "High Seas",
@@ -807,8 +787,7 @@
       "slack": "https://hackclub.slack.com/archives/C07PZMBUNDS",
       "slackChannel": "#high-seas",
       "status": "ended",
-      "deadline": "2025-01-31T23:59:59",
-      "participants": 1119
+      "deadline": "2025-01-31T23:59:59"
     },
     {
       "name": "Neon",
@@ -817,8 +796,7 @@
       "slack": "https://hackclub.slack.com/archives/C080GFRKXJ5",
       "slackChannel": "#neon",
       "status": "ended",
-      "deadline": "2025-01-31T23:59:59",
-      "participants": 195
+      "deadline": "2025-01-31T23:59:59"
     },
     {
       "name": "Say Cheese!",
@@ -828,8 +806,7 @@
       "slack": "https://hackclub.slack.com/archives/C07QKKZPVD0",
       "slackChannel": "#saycheese",
       "status": "ended",
-      "deadline": "2025-01-26T23:59:59",
-      "participants": 370
+      "deadline": "2025-01-26T23:59:59"
     },
     {
       "name": "Cargo Cult",

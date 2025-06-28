@@ -2,6 +2,7 @@
 
 @import "tailwindcss";
 @import "tailwindcss/theme";
+
 @tailwind utilities;
 
 @layer base {
