@@ -55,7 +55,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
   return (
     <div
       className={`rounded-lg shadow-md overflow-hidden border-l-4 p-5 ${
-        isActive
+        isActive || program.status === 'undefined'
           ? 'border-green-500 bg-white dark:bg-gray-800'
           : program.status === 'indefinite'
             ? 'border-green-500 bg-white dark:bg-green-800'
@@ -70,6 +70,8 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
           <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Active</span>
         ) : program.status === 'indefinite' ? (
           <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Indefinite</span>
+        ) : program.status === 'undefined' ? (
+          <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Undefined</span>
         ) : program.status === 'draft' ? (
           <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Draft</span>
         ) : (

@@ -82,7 +82,8 @@
       "website": "https://sidequests.hackclub.com/",
       "slack": "https://slack.com/archives/C08KCUK3NF5",
       "slackChannel": "#sidequests",
-      "status": "active"
+      "status": "active",
+      "deadline": "2025-04-25"
     },
     {
       "name": "Lockin",
@@ -90,7 +91,7 @@
       "website": "https://lockin.hackclub.com/",
       "slack": "https://slack.com/archives/C08JV3ZV1DY",
       "slackChannel": "#lock-in",
-      "status": "active"
+      "status": "indefinite"
     },
     {
       "name": "BrowserBuddy",
@@ -306,7 +307,7 @@
       "slack": "https://hackclub.slack.com/archives/C073DTGENJ2",
       "slackChannel": "#cider",
       "status": "active",
-      "deadline": null
+      "deadline": "2025-08-31"
     },
     {
       "name": "10 Days of Tarot",
@@ -323,8 +324,7 @@
       "website": "https://tonic.hackclub.com/",
       "slack": "https://slack.com/archives/C08K7ARJ58U",
       "slackChannel": "#tonic",
-      "status": "active",
-      "deadline": null
+      "status": "undefined"
     },
     {
       "name": "Thunder",

@@ -5,6 +5,6 @@ export interface Program {
   website?: string | null;
   slack?: string | null;
   slackChannel?: string | null;
-  status: "active" | "ended" | "draft" | "indefinite";
+  status: "active" | "ended" | "draft" | "indefinite" | "undefined";
   deadline?: string;
 }
