@@ -55,13 +55,15 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
   return (
     <div
       className={`rounded-lg shadow-md overflow-hidden border-l-4 p-5 ${
-        isActive || program.status === 'undefined'
-          ? 'border-green-500 bg-white dark:bg-gray-800'
-          : program.status === 'indefinite'
-            ? 'border-green-500 bg-white dark:bg-green-800'
-            : program.status === 'draft'
-              ? 'border-gray-400 bg-gray-50 dark:bg-gray-700'
-              : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
+        isUrgent
+          ? 'border-green-500 bg-red-50 dark:bg-red-900/30'
+          : isActive || program.status === 'undefined'
+            ? 'border-green-500 bg-blue-50 dark:bg-blue-900/30'
+            : program.status === 'indefinite'
+              ? 'border-green-500 bg-white dark:bg-green-800'
+              : program.status === 'draft'
+                ? 'border-gray-400 bg-gray-50 dark:bg-gray-700'
+                : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
       }`}
     >
       <div className="text-xs font-medium mb-2 flex justify-between items-start">
@@ -102,16 +104,15 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
 
             {/* Live Countdown Timer */}
             {timeRemaining && (
-              <div className={`mt-2 p-3 rounded-md ${
-                isUrgent ? 'bg-red-50 dark:bg-red-900/30 text-red-800 dark:text-red-300' : 'bg-blue-50 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300'
-              }`}>
-                <div className="flex justify-center space-x-2 rounded text-center px-2 py-1 text-lg font-bold">
-                  {format('{0}d {1}h {2}m {3}s',
-                    timeRemaining.days,
-                    timeRemaining.hours.toString().padStart(2, '0'),
-                    timeRemaining.minutes.toString().padStart(2, '0'),
-                    timeRemaining.seconds.toString().padStart(2, '0'))}
-                </div>
+              <div
+                className={`mt-2 p-3 rounded-md flex justify-center space-x-2 text-center px-2 py-1 text-lg font-bold ${
+                  isUrgent ? 'text-red-800 dark:text-red-300' : 'text-blue-800 dark:text-blue-300'
+                }`}>
+                {format('{0}d {1}h {2}m {3}s',
+                  timeRemaining.days,
+                  timeRemaining.hours.toString().padStart(2, '0'),
+                  timeRemaining.minutes.toString().padStart(2, '0'),
+                  timeRemaining.seconds.toString().padStart(2, '0'))}
               </div>
             )}
           </>
