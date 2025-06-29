@@ -4,6 +4,7 @@ import {format} from 'react-string-format';
 
 interface ProgramCardProps {
   program: Program;
+  calculateTimeRemaining: (deadline: string) => TimeRemaining;
 }
 
 interface TimeRemaining {
@@ -14,7 +15,7 @@ interface TimeRemaining {
   total: number;
 }
 
-const ProgramCard: React.FC<ProgramCardProps> = ({program}) => {
+const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemaining}) => {
   const [timeRemaining, setTimeRemaining] = useState<TimeRemaining | null>(null);
   const [formattedDeadline, setFormattedDeadline] = useState<string | null>(null);
 
@@ -22,34 +23,18 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program}) => {
   useEffect(() => {
     if (!program.deadline) return;
 
-    const calculateTimeRemaining = (): TimeRemaining => {
-      const now = new Date();
-      const deadlineDate = new Date(program.deadline as string);
-      const total = Math.max(0, deadlineDate.getTime() - now.getTime());
-
-      // Calculate all time parts
-      const seconds = Math.floor((total / 1000) % 60);
-      const minutes = Math.floor((total / 1000 / 60) % 60);
-      const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-      const days = Math.floor(total / (1000 * 60 * 60 * 24));
-
-      return {days, hours, minutes, seconds, total};
-    };
-
-    // Format the deadline date
-    const deadline = new Date(program.deadline);
-    setFormattedDeadline(deadline.toLocaleDateString('en-US', {
+    setFormattedDeadline(new Date(program.deadline).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
     }));
 
     // Initial calculation
-    setTimeRemaining(calculateTimeRemaining());
+    setTimeRemaining(calculateTimeRemaining(program.deadline));
 
     // Update every second
     const timerId = setInterval(() => {
-      const remaining = calculateTimeRemaining();
+      const remaining = calculateTimeRemaining(program.deadline!);
       setTimeRemaining(remaining);
 
       // Clear interval when deadline has passed
@@ -58,9 +43,8 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program}) => {
       }
     }, 1000);
 
-    // Clean up on unmount
     return () => clearInterval(timerId);
-  }, [program.deadline]);
+  }, [calculateTimeRemaining, program.deadline]);
 
   // Determine if the program is active and has time remaining
   const isActive = program.status === 'active' && timeRemaining && timeRemaining.total > 0;
@@ -155,3 +139,4 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program}) => {
 };
 
 export default ProgramCard;
+export type {TimeRemaining};

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import ProgramCard from './ProgramCard';
+import ProgramCard, {type TimeRemaining} from './ProgramCard';
 import type {Program} from '../types/program';
 
 const ApiDisplay: React.FC = () => {
@@ -21,15 +21,30 @@ const ApiDisplay: React.FC = () => {
       });
   }, []);
 
+  const calculateTimeRemaining = (deadline?: string): TimeRemaining => {
+    if (!deadline) {
+      return {days: 0, hours: 0, minutes: 0, seconds: 0, total: 0};
+    }
+    const deadlineDate = new Date(deadline);
+    const now = new Date();
+    const total = Math.max(0, deadlineDate.getTime() - now.getTime());
+
+    // Calculate all time parts
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor((total / (1000 * 60)) % 60);
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+    return {days, hours, minutes, seconds, total};
+  };
+
   // Apply filters and sorting when data, active filter, or active sort changes
   useEffect(() => {
     if (!data || typeof data === 'string') return;
 
     // Apply filters
     data.sort((a, b) => {
-      if (!a.deadline) return 1;
-      if (!b.deadline) return -1;
-      return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
+      return calculateTimeRemaining(a.deadline).total - calculateTimeRemaining(b.deadline).total;
     });
   }, [data]);
 
@@ -51,7 +66,7 @@ const ApiDisplay: React.FC = () => {
       <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Hack Club Programs</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data?.map((program, index) =>
-          <ProgramCard key={index} program={program}/>
+          <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
         )}
       </div>
     </div>
