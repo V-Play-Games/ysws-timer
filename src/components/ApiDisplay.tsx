@@ -58,10 +58,41 @@ const ApiDisplay: React.FC = () => {
   return (
     <div className="container mx-auto p-4">
       <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Hack Club Programs</h2>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Active Programs</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {data?.map((program, index) =>
-          <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
-        )}
+        {data
+          ?.filter(program => program.status === 'active' && (calculateTimeRemaining(program.deadline)?.total || 0) > 0)
+          ?.map((program, index) =>
+            <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
+          )}
+      </div>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Indefinite Programs</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {data
+          ?.filter(program => program.status === 'indefinite')
+          ?.map((program, index) =>
+            <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
+          )}
+      </div>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Draft Programs</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {data
+          ?.filter(program => program.status === 'draft')
+          ?.map((program, index) =>
+            <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
+          )}
+      </div>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Expired Programs</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {data
+          ?.filter(program =>
+            program.status !== 'indefinite' &&
+            program.status !== 'draft' &&
+            program.status !== 'active' &&
+            (program.status === 'ended' || (calculateTimeRemaining(program.deadline)?.total || 0) <= 0))
+          ?.map((program, index) =>
+            <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
+          )}
       </div>
     </div>
   );
