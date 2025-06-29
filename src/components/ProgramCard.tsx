@@ -120,10 +120,10 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
             ? <a href={program.slack} target="_blank" rel="noopener noreferrer"
                  className="p-1 bg-purple-100 hover:bg-purple-200 text-purple-800 rounded transition-colors duration-200"
             >
-              HC Slack
+              Slack
             </a>
             : <a className="p-1 bg-gray-700 text-gray-300 rounded">
-              HC Slack
+              Slack
             </a>
           }
         </div>
