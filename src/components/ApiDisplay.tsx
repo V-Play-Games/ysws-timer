@@ -57,41 +57,40 @@ const ApiDisplay: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Hack Club Programs</h2>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Limited Time Programs</h2>
-      <div className="grid grid-cols-1 gap-6">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">Limited Time Programs</h2>
+      <div className="grid grid-cols-1 gap-6 mb-3">
         {data
           ?.filter(program => program.status === 'active' && (calculateTimeRemaining(program.deadline)?.total || 0) > 0)
           ?.map((program, index) =>
             <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
           )}
       </div>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Limited Time but Undefined Deadline Programs</h2>
-      <div className="grid grid-cols-1 gap-6">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">Undefined Deadline Programs</h2>
+      <div className="grid grid-cols-1 gap-6 mb-3">
         {data
           ?.filter(program => program.status === 'undefined')
           ?.map((program, index) =>
             <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
           )}
       </div>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Indefinite Programs</h2>
-      <div className="grid grid-cols-1 gap-6">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">Indefinite Programs</h2>
+      <div className="grid grid-cols-1 gap-6 mb-3">
         {data
           ?.filter(program => program.status === 'indefinite')
           ?.map((program, index) =>
             <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
           )}
       </div>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Draft Programs</h2>
-      <div className="grid grid-cols-1 gap-6">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">Draft Programs</h2>
+      <div className="grid grid-cols-1 gap-6 mb-3">
         {data
           ?.filter(program => program.status === 'draft')
           ?.map((program, index) =>
             <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>
           )}
       </div>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Expired Programs</h2>
-      <div className="grid grid-cols-1 gap-6">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">Expired Programs</h2>
+      <div className="grid grid-cols-1 gap-6 mb-3">
         {data
           ?.filter(program =>
             program.status !== 'indefinite' &&

@@ -66,58 +66,72 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
                 : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
       }`}
     >
-      <div className="text-xs font-medium mb-2 flex justify-between items-start">
-        <details className="cursor-pointer">
-          <summary
-            className="text-lg font-bold text-blue-500 hover:opacity-80 rounded transition-all duration-200 mb-2">
-            <span className="text-gray-800 dark:text-white">{program.name}</span>
-          </summary>
-          <p className="text-gray-600 dark:text-gray-300 mb-4">{program.description}</p>
-        </details>
-        {timeRemaining && isActive ? (
-          <div
-          className={`rounded-md flex justify-center space-x-2 pt-1 text-center text-base font-bold font-[JetBrains_Mono] ${
-            isUrgent ? 'text-red-800 dark:text-red-300' : 'text-blue-800 dark:text-blue-300'
-          }`}>
-          {format('{0}d {1}:{2}:{3}',
-            timeRemaining.days,
-            timeRemaining.hours.toString().padStart(2, '0'),
-            timeRemaining.minutes.toString().padStart(2, '0'),
-            timeRemaining.seconds.toString().padStart(2, '0'))}
+      {/* 2x2 Grid Layout */}
+      <div className="text-xs font-medium mb-2 grid grid-cols-2 gap-4">
+        {/* Cell 0,0: Name + Description - Center-Left aligned */}
+        <div className="flex flex-col items-start justify-center">
+          <details className="cursor-pointer w-full">
+            <summary
+              className="text-lg font-bold text-blue-500 hover:opacity-80 rounded transition-all duration-200 mb-2">
+              <span className="text-gray-800 dark:text-white">{program.name}</span>
+            </summary>
+            <p className="text-gray-600 dark:text-gray-300 mt-2">{program.description}</p>
+          </details>
         </div>
-        ) : program.status === 'indefinite' ? (
-          <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Indefinite</span>
-        ) : program.status === 'undefined' ? (
-          <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Undefined</span>
-        ) : program.status === 'draft' ? (
-          <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Draft</span>
-        ) : (
-          <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Ended</span>
-        )}
-      </div>
 
-      <div className="flex flex-wrap space-y-2">
-        <div className="inline-flex items-center text-sm">
-          {program.website
-            ? <a href={program.website} target="_blank" rel="noopener noreferrer"
-                 className="p-1 mr-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded transition-colors duration-200"
+        {/* Cell 0,1: Countdown - Center-Right aligned */}
+        <div className="flex justify-end items-center">
+          {timeRemaining && isActive ? (
+            <div
+              className={`rounded-md px-3 py-1 text-center text-base font-bold font-[JetBrains_Mono] ${
+                isUrgent ? 'bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300' : 'bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300'
+              }`}
             >
+              {format('{0}d {1}:{2}:{3}',
+                timeRemaining.days.toString().padStart(2, '0'),
+                timeRemaining.hours.toString().padStart(2, '0'),
+                timeRemaining.minutes.toString().padStart(2, '0'),
+                timeRemaining.seconds.toString().padStart(2, '0'))}
+            </div>
+          ) : program.status === 'indefinite' ? (
+            <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Indefinite</span>
+          ) : program.status === 'undefined' ? (
+            <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Undefined</span>
+          ) : program.status === 'draft' ? (
+            <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Draft</span>
+          ) : (
+            <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Ended</span>
+          )}
+        </div>
+
+        {/* Cell 1,0: Website + HC Slack - Center-Left aligned */}
+        <div className="flex items-center">
+          <div className="flex gap-2 text-sm">
+            {program.website
+              ? <a href={program.website} target="_blank" rel="noopener noreferrer"
+                   className="p-1 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded transition-colors duration-200"
+              >
+                Website
+              </a>
+              : <a className="p-1 bg-gray-700 text-gray-300 rounded">
               Website
             </a>
-            : <span className="p-1 mr-2 bg-gray-700 text-gray-300 rounded">
-              Website
-            </span>
-          }
-          {program.slack
-            ? <a href={program.slack} target="_blank" rel="noopener noreferrer"
-                 className="p-1 mr-5 bg-purple-100 hover:bg-purple-200 text-purple-800 rounded transition-colors duration-200"
-            >
+            }
+            {program.slack
+              ? <a href={program.slack} target="_blank" rel="noopener noreferrer"
+                   className="p-1 bg-purple-100 hover:bg-purple-200 text-purple-800 rounded transition-colors duration-200"
+              >
+                HC Slack
+              </a>
+              : <a className="p-1 bg-gray-700 text-gray-300 rounded">
               HC Slack
             </a>
-            : <span className="p-1 mr-5 bg-gray-700 text-gray-300 rounded">
-              HC Slack
-            </span>
-          }
+            }
+          </div>
+        </div>
+
+        {/* Cell 1,1: Deadline - Center-Right aligned */}
+        <div className="flex justify-end items-center">
           {formattedDeadline && (
             <div>
               <span className="font-semibold text-gray-700 dark:text-gray-200">Deadline:</span>
