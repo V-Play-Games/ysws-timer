@@ -47,29 +47,29 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
   }, [calculateTimeRemaining, program.deadline]);
 
   // Determine if the program is active and has time remaining
-  const isActive = program.status === 'active' && timeRemaining && timeRemaining.total > 0;
+  const isActive = program.status === 'active' && timeRemaining && timeRemaining?.total > 0;
 
   // Determine urgency for styling
-  const isUrgent = isActive && (timeRemaining?.days || 0) <= 7;
+  const isUrgent = isActive && timeRemaining!.days <= 7;
 
   return (
     <div
       className={`rounded-lg shadow-md overflow-hidden border-l-4 p-5 ${
         isActive
           ? 'border-green-500 bg-white dark:bg-gray-800'
-          : 'border-gray-400 bg-gray-50 dark:bg-gray-700'
+          : program.status === 'draft'
+            ? 'border-gray-400 bg-gray-50 dark:bg-gray-700'
+            : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
       }`}
     >
       <div className="flex justify-between items-start">
         <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{program.name}</h3>
         {isActive ? (
-          <span className="px-2 py-1 text-xs rounded-full bg-green-100 text-green-800 font-medium">
-              Active
-            </span>
+          <span className="text-xs font-medium mb-2 px-2 py-1 rounded-full bg-green-100 text-green-800">Active</span>
+        ) : program.status === 'draft' ? (
+          <span className="text-xs font-medium mb-2 px-2 py-1 rounded-full bg-gray-100 text-gray-800">Draft</span>
         ) : (
-          <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-800 font-medium">
-              Ended
-            </span>
+          <span className="text-xs font-medium mb-2 px-2 py-1 rounded-full bg-gray-100 text-gray-800">Ended</span>
         )}
       </div>
 

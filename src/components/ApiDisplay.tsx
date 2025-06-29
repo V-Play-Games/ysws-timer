@@ -14,7 +14,11 @@ const ApiDisplay: React.FC = () => {
         return response.json();
       })
       .then((apiData) => {
-        setData(apiData.data);
+        const fetchedData: Program[] = apiData.data;
+        fetchedData.sort((a, b) =>
+          calculateTimeRemaining(b.deadline).total - calculateTimeRemaining(a.deadline).total
+        )
+        setData(fetchedData);
       })
       .catch(err => {
         setData(err.message);
@@ -37,16 +41,6 @@ const ApiDisplay: React.FC = () => {
 
     return {days, hours, minutes, seconds, total};
   };
-
-  // Apply filters and sorting when data, active filter, or active sort changes
-  useEffect(() => {
-    if (!data || typeof data === 'string') return;
-
-    // Apply filters
-    data.sort((a, b) => {
-      return calculateTimeRemaining(a.deadline).total - calculateTimeRemaining(b.deadline).total;
-    });
-  }, [data]);
 
   if (data === null) return (
     <div className="flex justify-center items-center p-8">
