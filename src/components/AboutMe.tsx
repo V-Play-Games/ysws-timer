@@ -1,11 +1,13 @@
 import React from 'react';
+import ProjectCard from './ProjectCard';
+import type {Project} from '../types/project';
 
 const AboutMe: React.FC = () => {
   const skills = [
     'Java', 'Kotlin', 'Android', 'Shell', 'HTML', 'CSS', 'JavaScript', 'TypeScript',
   ];
 
-  const projects = [
+  const projects: Project[] = [
     {
       name: 'Venixxino',
       description: 'A 3D demonstration to visualize electronic configurations for the first 20 periodic table elements',
@@ -118,20 +120,9 @@ const AboutMe: React.FC = () => {
         {/* Projects */}
         <h3 className="text-xl font-semibold mt-8 mb-3 text-gray-700 dark:text-gray-100">Recent Projects</h3>
         <div className="space-y-4 mb-8">
-          {projects.map((project, index) => (
-            <div key={index} className="border border-gray-200 dark:border-gray-600 rounded-lg p-4">
-              <h4 className="font-semibold text-blue-600 dark:text-blue-400">
-                <a href={project.link} className="hover:opacity-80 transition-all" target="_blank" rel="noopener noreferrer">
-                  {project.name}
-                </a><span
-                className="inline-block mt-2 px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-full text-xs">
-                  ({project.tech})
-                </span>
-              </h4>
-              <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
-
-            </div>
-          ))}
+          {projects.map((project, index) =>
+            <ProjectCard key={index} project={project}/>
+          )}
           <p className="text-sm text-blue-500 dark:text-blue-400 mt-2">
             <a href="https://github.com/V-Play-Games?tab=repositories"
                className="hover:opacity-80 transition-all" target="_blank" rel="noopener noreferrer">
