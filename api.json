@@ -1,6 +1,117 @@
 {
   "data": [
     {
+      "name": "Rewind",
+      "description": "Build a desktop app, Get stickers, artifacts + a framed Windows XP image!",
+      "website": "https://rewind.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C093ALFAW8K",
+      "status": "active",
+      "deadline": "2025-07-06T23:59:59-07:00"
+    },
+    {
+      "name": "Spatula",
+      "description": "Ship an app or script that sends push notifications. Get grant for Twilio SMS",
+      "website": "https://spatule.hackclub.com/",
+      "status": "active",
+      "deadline": "2025-07-03T16:59:59-04:00"
+    },
+    {
+      "name": "Jumpstart",
+      "description": "Build a platformer in Godot in one week. Earn stickers and other prizes!!",
+      "website": "https://jumpstart.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C0931T5SEH4",
+      "status": "active",
+      "deadline": "2025-07-02T23:59:59-07:00"
+    },
+    {
+      "name": "Pulse",
+      "description": "Build a project using the Spotify API with 6 hours on Hackatime, get 3 months of Spotify Premium.",
+      "website":"https://pulse.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C090E7XUEA3",
+      "status": "active",
+      "deadline": "2025-07-08T23:59:59-07:00"
+    },
+    {
+      "name": "Converge",
+      "description": "Build bots, win prizes",
+      "website": "https://converge.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C091UF79VDM",
+      "status": "active",
+      "deadline": "2025-07-15T23:59:59-07:00"
+    },
+    {
+      "name": "Hash Core",
+      "description": "A 48-hour YSWS - Make a song using only code!",
+      "website": "https://hashcore.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C09395S9BPT",
+      "status": "active",
+      "deadline": "2025-06-26T13:59:59-04:00"
+    },
+    {
+      "name": "Reinforced",
+      "description": "Build a game, build a bot to beat it, get compute to do more AI stuff.",
+      "website": "https://reinforced.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C092JUZ7V7Y",
+      "status": "active",
+      "deadline": "2025-07-16T23:59:59-07:00"
+    },
+    {
+      "name": "Twist",
+      "description": "Make an esolang, get stickers and a $40 electronics grant.",
+      "website": "https://twist.hackclub.dev",
+      "slack": "https://hackclub.slack.com/archives/C092A93FA4X",
+      "status": "active",
+      "deadline": "2025-07-14T23:59:59-07:00"
+    },
+    {
+      "name": "Hackmate",
+      "description": "Build a collaborative app, ship it, and get rewarded with cloud credits/raspberry pi!",
+      "website": "https://hackmate.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C092HR1LG20",
+      "status": "active",
+      "deadline": "2025-07-15T23:59:59-07:00"
+    },
+    {
+      "name": "Silicon",
+      "description": "Design your own custom devboard and we'll fund it.",
+      "website": "https://silicon.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C090WQ9JBTM",
+      "status": "active",
+      "deadline": "2025-08-06T23:59:59-07:00"
+    },
+    {
+      "name": "Dockerize",
+      "description": "Build a self-hosted application using Docker, we ship you stickers and a chance to win a ZimaBoard.",
+      "website": "https://dockerize.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C092D9HARSQ",
+      "status": "active",
+      "deadline": "2025-07-04T23:59:59-07:00"
+    },
+    {
+      "name": "FIX IT",
+      "description": "Create a userscript. Get Stickers. 24 hour YSWS",
+      "website": "https://fixit.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C093145P15W",
+      "status": "ended",
+      "deadline": "2025-06-21T02:29:59+5:30"
+    },
+    {
+      "name": "Gamefolio",
+      "description": "You Ship: Make your portfolio site in the style of your favorite game\nWe Ship: $20 grant card which can be spent on either domains or hosting.",
+      "website": "https://gamefolio.hackclub.dev/",
+      "slack": "https://hackclub.slack.com/archives/C08RT4C2485",
+      "status": "active",
+      "deadline": "2025-07-15T23:59:59-04:00"
+    },
+    {
+      "name": "Illumination",
+      "description": "You Ship: a program that runs on an ESP32, a backend that connects to your ESP32, and a website to control your ESP32 and backend.\nWe Ship: a cool ESP32-S3 based devboard, hardware parts you choose, and cloud credits to run your backend with.",
+      "website": "https://illumination.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C091MS57D37",
+      "status": "active",
+      "deadline": ""
+    },
+    {
       "name": "Summer of Making",
       "description": "Build stuff. Get stuff. Repeat.",
       "website": "https://summer.hackclub.com/",

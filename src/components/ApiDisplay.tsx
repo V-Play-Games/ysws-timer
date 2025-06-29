@@ -103,7 +103,7 @@ const ApiDisplay: React.FC = () => {
 
       return <section key={categoryIndex} className="mb-8 transition-all duration-300 ease-in-out">
         <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white border-b pb-2">
-          {category.title}
+          {category.title} ({filteredPrograms.length})
         </h2>
         <div className="flex flex-col space-y-6 transition-all duration-300">
           {filteredPrograms.map((program, index) =>
