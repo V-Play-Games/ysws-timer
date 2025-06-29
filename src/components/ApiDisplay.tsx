@@ -97,6 +97,7 @@ const ApiDisplay: React.FC = () => {
             program.status !== 'indefinite' &&
             program.status !== 'draft' &&
             program.status !== 'active' &&
+            program.status !== 'undefined' &&
             (program.status === 'ended' || (calculateTimeRemaining(program.deadline)?.total || 0) <= 0))
           ?.map((program, index) =>
             <ProgramCard key={index} program={program} calculateTimeRemaining={calculateTimeRemaining}/>

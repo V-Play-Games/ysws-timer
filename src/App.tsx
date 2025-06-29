@@ -21,7 +21,7 @@ const TopBar: React.FC = () => (
 function App() {
   return (
     <Router>
-      <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-800 font-['Exo 2', sans-serif]">
+      <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-800 font-[Exo_2]">
         <TopBar/>
         <Routes>
           <Route path="/" element={<ApiDisplay/>}/>
