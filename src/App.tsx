@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import ApiDisplay from './components/ApiDisplay';
 import AboutMe from './components/AboutMe';
+import Cat from './components/Cat';
 
 const TopBar: React.FC = () => (
   <header className="flex items-center justify-between px-8 py-4 bg-gray-800 text-white">
@@ -26,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ApiDisplay/>}/>
           <Route path="/aboutme" element={<AboutMe/>}/>
-          <Route path="/cat" element={<div className="container mx-auto p-6 text-center">Coming Soon: Cat Page</div>}/>
+          <Route path="/cat" element={<Cat/>}/>
         </Routes>
       </div>
     </Router>
