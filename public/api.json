@@ -6,7 +6,7 @@
       "website": "https://rewind.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C093ALFAW8K",
       "status": "active",
-      "deadline": "2025-07-06T23:59:59-07:00"
+      "deadline": "2025-07-06T23:59:59-04:00"
     },
     {
       "name": "Spatula",
@@ -21,7 +21,7 @@
       "website": "https://jumpstart.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0931T5SEH4",
       "status": "active",
-      "deadline": "2025-07-02T23:59:59-07:00"
+      "deadline": "2025-07-02T23:59:59-04:00"
     },
     {
       "name": "Pulse",
@@ -37,7 +37,7 @@
       "website": "https://converge.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C091UF79VDM",
       "status": "active",
-      "deadline": "2025-07-15T23:59:59-07:00"
+      "deadline": "2025-07-15T23:59:59-04:00"
     },
     {
       "name": "Hash Core",
@@ -61,7 +61,7 @@
       "website": "https://twist.hackclub.dev",
       "slack": "https://hackclub.slack.com/archives/C092A93FA4X",
       "status": "active",
-      "deadline": "2025-07-14T23:59:59-07:00"
+      "deadline": "2025-07-14T23:59:59-04:00"
     },
     {
       "name": "Hackmate",
@@ -69,7 +69,7 @@
       "website": "https://hackmate.hackclub.dev/",
       "slack": "https://hackclub.slack.com/archives/C092HR1LG20",
       "status": "active",
-      "deadline": "2025-07-15T23:59:59-07:00"
+      "deadline": "2025-07-15T23:59:59-04:00"
     },
     {
       "name": "Silicon",
@@ -77,7 +77,7 @@
       "website": "https://silicon.hackclub.dev/",
       "slack": "https://hackclub.slack.com/archives/C090WQ9JBTM",
       "status": "active",
-      "deadline": "2025-08-06T23:59:59-07:00"
+      "deadline": "2025-08-06T23:59:59"
     },
     {
       "name": "Dockerize",
@@ -85,7 +85,8 @@
       "website": "https://dockerize.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C092D9HARSQ",
       "status": "active",
-      "deadline": "2025-07-04T23:59:59-07:00"
+      "deadline": "2025-07-04T23:59:59-04:00"
+
     },
     {
       "name": "FIX IT",
