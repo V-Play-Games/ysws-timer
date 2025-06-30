@@ -29,7 +29,7 @@
       "website":"https://pulse.hackclub.dev/",
       "slack": "https://hackclub.slack.com/archives/C090E7XUEA3",
       "status": "active",
-      "deadline": "2025-07-08T23:59:59-07:00"
+      "deadline": "2025-07-08T23:59:59-04:00"
     },
     {
       "name": "Converge",
@@ -53,7 +53,7 @@
       "website": "https://reinforced.hackclub.dev/",
       "slack": "https://hackclub.slack.com/archives/C092JUZ7V7Y",
       "status": "active",
-      "deadline": "2025-07-16T23:59:59-07:00"
+      "deadline": "2025-07-16T23:59:59-04:00"
     },
     {
       "name": "Twist",
@@ -118,7 +118,7 @@
       "website": "https://summer.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C015M4L9AHW",
       "status": "active",
-      "deadline": "2025-08-31T23:59:59-07:00"
+      "deadline": "2025-08-31T23:59:59-04:00"
     },
     {
       "name": "Reactive",
@@ -126,7 +126,7 @@
       "website": "http://reactive.hackclub.dev",
       "slack": "https://hackclub.slack.com/archives/C090S7Q2HT4",
       "status": "active",
-      "deadline": "2025-07-02T23:59:59-07:00"
+      "deadline": "2025-07-02T23:59:59-04:00"
     },
     {
       "name": "Waveband",
@@ -134,7 +134,7 @@
       "website": "https://waveband.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C082S5V95G8",
       "status": "active",
-      "deadline": "2025-07-11T23:59:59-07:00"
+      "deadline": "2025-07-11T23:59:59-04:00"
     },
     {
       "name": "Highway",
@@ -142,7 +142,7 @@
       "website": "https://highway.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C08Q1H6D79B",
       "status": "active",
-      "deadline": "2025-07-31T23:59:59-07:00"
+      "deadline": "2025-07-31T23:59:59-04:00"
     },
     {
       "name": "Cafe",
@@ -150,7 +150,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C02A74Z7G7L",
       "status": "ended",
-      "deadline": "2025-02-17T23:59:59-07:00"
+      "deadline": "2025-02-17T23:59:59-04:00"
     },
     {
       "name": "RaspAPI",
@@ -158,7 +158,7 @@
       "website": "https://raspapi.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07UZSKJQRX",
       "status": "active",
-      "deadline": "2025-03-10T23:59:59-07:00"
+      "deadline": "2025-03-10T23:59:59-04:00"
     },
     {
       "name": "Black Box",
@@ -166,7 +166,7 @@
       "website": "https://blackbox.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C08APN1CKEJ",
       "status": "active",
-      "deadline": "2025-03-29T23:59:59-07:00"
+      "deadline": "2025-03-29T23:59:59-04:00"
     },
     {
       "name": "Hackpad",
@@ -174,7 +174,7 @@
       "website": "https://github.com/hackclub/hackpad",
       "slack": "https://hackclub.slack.com/archives/C07LESGH0B0",
       "status": "active",
-      "deadline": "2025-03-16T23:59:59-07:00"
+      "deadline": "2025-03-16T23:59:59-04:00"
     },
     {
       "name": "Sidequests",
@@ -182,7 +182,7 @@
       "website": "https://sidequests.hackclub.com/",
       "slack": "https://slack.com/archives/C08KCUK3NF5",
       "status": "active",
-      "deadline": "2025-04-25T23:59:59-07:00"
+      "deadline": "2025-04-25T23:59:59-04:00"
     },
     {
       "name": "Lockin",
@@ -197,7 +197,7 @@
       "website": "https://browserbuddy.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07MQBTNVRU",
       "status": "active",
-      "deadline": "2025-03-19T23:59:59-07:00"
+      "deadline": "2025-03-19T23:59:59-04:00"
     },
     {
       "name": "TerminalCraft",
@@ -205,7 +205,7 @@
       "website": "https://terminalcraft.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C08F58MT3GV",
       "status": "active",
-      "deadline": "2025-06-21T23:59:59-07:00"
+      "deadline": "2025-06-21T23:59:59-04:00"
     },
     {
       "name": "Pixeldust",
@@ -213,7 +213,7 @@
       "website": "https://pixeldust.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0895PXH53M",
       "status": "active",
-      "deadline": "2025-04-13T23:59:59-07:00"
+      "deadline": "2025-04-13T23:59:59-04:00"
     },
     {
       "name": "Juice",
@@ -221,7 +221,7 @@
       "website": "https://juice.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C088UF12N1Z",
       "status": "active",
-      "deadline": "2025-04-01T23:59:59-07:00"
+      "deadline": "2025-04-01T23:59:59-04:00"
     },
     {
       "name": "Jungle",
@@ -229,7 +229,7 @@
       "website": "https://juice.hackclub.com/jungle",
       "slack": "https://hackclub.slack.com/archives/C086MACKK43",
       "status": "active",
-      "deadline": "2025-04-01T23:59:59-07:00"
+      "deadline": "2025-04-01T23:59:59-04:00"
     },
     {
       "name": "Infill",
@@ -237,7 +237,7 @@
       "website": "https://github.com/hackclub/infill",
       "slack": "https://hackclub.slack.com/archives/C08B7LF58TX",
       "status": "active",
-      "deadline": "2025-05-04T23:59:59-07:00"
+      "deadline": "2025-05-04T23:59:59-04:00"
     },
     {
       "name": "Visioneer",
@@ -245,7 +245,7 @@
       "website": "https://visioneer.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C082PCKJYMN",
       "status": "active",
-      "deadline": "2025-04-20T23:59:59-07:00"
+      "deadline": "2025-04-20T23:59:59-04:00"
     },
     {
       "name": "Hacklet",
@@ -253,7 +253,7 @@
       "website": "http://hackclub.github.io/hacklet",
       "slack": "https://hackclub.slack.com/archives/C08PJMATU8Y",
       "status": "active",
-      "deadline": "2025-05-10T23:59:59-07:00"
+      "deadline": "2025-05-10T23:59:59-04:00"
     },
     {
       "name": "Asylum",
@@ -261,7 +261,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C083CCAAHM1",
       "status": "ended",
-      "deadline": "2024-12-31T23:59:59-07:00"
+      "deadline": "2024-12-31T23:59:59-04:00"
     },
     {
       "name": "Printboard",
@@ -269,7 +269,7 @@
       "website": "https://printboard.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0853M4PCUA",
       "status": "ended",
-      "deadline": "2025-02-16T23:59:59-07:00"
+      "deadline": "2025-02-16T23:59:59-04:00"
     },
     {
       "name": "Minus Twelve",
@@ -277,7 +277,7 @@
       "website": "https://minustwelve.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C087S82MNFR",
       "status": "ended",
-      "deadline": "2025-01-27T23:59:59-07:00"
+      "deadline": "2025-01-27T23:59:59-04:00"
     },
     {
       "name": "Hackapet",
@@ -285,7 +285,7 @@
       "website": "https://hackapet.hackclub.dev",
       "slack": "https://hackclub.slack.com/archives/C0809PN4TPE",
       "status": "ended",
-      "deadline": "2025-02-03T23:59:59-07:00"
+      "deadline": "2025-02-03T23:59:59-04:00"
     },
     {
       "name": "Dessert",
@@ -293,7 +293,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C07N06B1FDY",
       "status": "ended",
-      "deadline": "2025-01-10T23:59:59-07:00"
+      "deadline": "2025-01-10T23:59:59-04:00"
     },
     {
       "name": "Solder",
@@ -301,7 +301,7 @@
       "website": "https://solder.hackclub.com/",
       "slack": "https://slack.com/archives/C08L288G22Y",
       "status": "active",
-      "deadline": "2025-06-30T23:59:59-07:00"
+      "deadline": "2025-06-30T23:59:59-04:00"
     },
     {
       "name": "HackCraft",
@@ -309,7 +309,7 @@
       "website": "https://hackcraft.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07NQ5QAYNQ",
       "status": "ended",
-      "deadline": "2025-06-07T23:59:59-07:00",
+      "deadline": "2025-06-07T23:59:59-04:00",
       "steps": [
         "Make a mod.",
         "Publish it on Modrinth or Hangar.",
@@ -331,7 +331,7 @@
       "website": "https://cascade.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07QA8HD48N",
       "status": "active",
-      "deadline": "2024-12-14T23:59:59-07:00"
+      "deadline": "2024-12-14T23:59:59-04:00"
     },
     {
       "name": "Riceathon",
@@ -339,7 +339,7 @@
       "website": "https://github.com/HackClub/riceathon",
       "slack": "https://hackclub.slack.com/archives/C07MLF9A8H5",
       "status": "active",
-      "deadline": "2025-01-10T23:59:59-07:00"
+      "deadline": "2025-01-10T23:59:59-04:00"
     },
     {
       "name": "Hacky Holidays",
@@ -347,7 +347,7 @@
       "website": "https://hacky-holidays.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C083SK3G5D3",
       "status": "ended",
-      "deadline": "2025-01-31T23:59:59-07:00"
+      "deadline": "2025-01-31T23:59:59-04:00"
     },
     {
       "name": "BakeBuild",
@@ -355,7 +355,7 @@
       "website": "https://bakebuild.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0844MV2JM9",
       "status": "ended",
-      "deadline": "2025-02-11T23:59:59-07:00"
+      "deadline": "2025-02-11T23:59:59-04:00"
     },
     {
       "name": "Retrospect (J2ME edition)",
@@ -363,7 +363,7 @@
       "website": "https://retrospect.hackclub.com/j2me",
       "slack": "https://hackclub.slack.com/archives/C07MUFXNG82",
       "status": "active",
-      "deadline": "2025-04-07T23:59:59-07:00"
+      "deadline": "2025-04-07T23:59:59-04:00"
     },
     {
       "name": "Hackaccino",
@@ -371,7 +371,7 @@
       "website": "https://fraps.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C078DFVL5LZ",
       "status": "active",
-      "deadline": "2025-06-30T23:59:59-07:00"
+      "deadline": "2025-06-30T23:59:59-04:00"
     },
     {
       "name": "Cider",
@@ -379,7 +379,7 @@
       "website": "https://cider.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C073DTGENJ2",
       "status": "active",
-      "deadline": "2025-08-31T23:59:59-07:00"
+      "deadline": "2025-08-31T23:59:59-04:00"
     },
     {
       "name": "10 Days of Tarot",
@@ -387,7 +387,7 @@
       "website": "https://tarot.hackclub.com/",
       "slack": "https://slack.com/archives/C08L60RUQ92",
       "status": "active",
-      "deadline": "2025-04-13T23:59:59-07:00"
+      "deadline": "2025-04-13T23:59:59-04:00"
     },
     {
       "name": "Tonic",
@@ -402,7 +402,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C06V2GEV3MY",
       "status": "active",
-      "deadline": "2025-07-15T23:59:59-07:00"
+      "deadline": "2025-07-15T23:59:59-04:00"
     },
     {
       "name": "Shipwrecked",
@@ -410,7 +410,7 @@
       "website": "https://shipwrecked.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C073L9LB4K1",
       "status": "active",
-      "deadline": "2025-08-08T15:00:00T23:59:59-07:00"
+      "deadline": "2025-08-08T15:00:00T23:59:59-04:00"
     },
     {
       "name": "Neighborhood",
@@ -418,7 +418,7 @@
       "website": "https://neighborhood.hackclub.com",
       "slack": "https://hackclub.slack.com/archives/C073L9LB4K1",
       "status": "active",
-      "deadline": "2025-08-31T23:59:59-07:00"
+      "deadline": "2025-08-31T23:59:59-04:00"
     },
     {
       "name": "Sprig",
@@ -594,7 +594,7 @@
       "website": "https://jetsu.vercel.app",
       "slack": "https://slack.com/archives/C08GPNV0P0W",
       "status": "draft",
-      "deadline": "2025-07-31T23:59:59-07:00"
+      "deadline": "2025-07-31T23:59:59-04:00"
     },
     {
       "name": "Hackclub market",
@@ -693,7 +693,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C045S4393CY",
       "status": "ended",
-      "ended": "2025-03-09T23:59:59-07:00"
+      "ended": "2025-03-09T23:59:59-04:00"
     },
     {
       "name": "Sock",
@@ -701,7 +701,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C08DPRYMWF8",
       "status": "ended",
-      "ended": "2025-03-01T23:59:59-07:00"
+      "ended": "2025-03-01T23:59:59-04:00"
     },
     {
       "name": "Easel",
@@ -709,7 +709,7 @@
       "website": "https://easel.hackclub.com/orpheus-finds-easel",
       "slack": "https://hackclub.slack.com/archives/C06T22ZFQGP",
       "status": "ended",
-      "ended": "2024-06-30T23:59:59-07:00"
+      "ended": "2024-06-30T23:59:59-04:00"
     },
     {
       "name": "Blot",
@@ -717,7 +717,7 @@
       "website": "https://blot.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C04GCH8A91D",
       "status": "ended",
-      "ended": "2024-11-23T23:59:59-07:00"
+      "ended": "2024-11-23T23:59:59-04:00"
     },
     {
       "name": "Boba Manor",
@@ -725,7 +725,7 @@
       "website": "https://manor.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
       "status": "ended",
-      "ended": "2024-10-31T23:59:59-07:00"
+      "ended": "2024-10-31T23:59:59-04:00"
     },
     {
       "name": "Retrospect",
@@ -733,7 +733,7 @@
       "website": "https://retrospect.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07MUFXNG82",
       "status": "ended",
-      "ended": "2024-10-08T23:59:59-07:00"
+      "ended": "2024-10-08T23:59:59-04:00"
     },
     {
       "name": "LLM YSWS",
@@ -741,7 +741,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C07KYNWR10W",
       "status": "ended",
-      "ended": "2024-10-01T23:59:59-07:00"
+      "ended": "2024-10-01T23:59:59-04:00"
     },
     {
       "name": "Arcade",
@@ -749,7 +749,7 @@
       "website": "https://hackclub.com/arcade",
       "slack": "https://hackclub.slack.com/archives/C06SBHMQU8G",
       "status": "ended",
-      "ended": "2024-09-01T23:59:59-07:00"
+      "ended": "2024-09-01T23:59:59-04:00"
     },
     {
       "name": "The Bin",
@@ -757,7 +757,7 @@
       "website": "https://bin.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C01FXNNF6F2",
       "status": "ended",
-      "ended": "2024-09-30T23:59:59-07:00"
+      "ended": "2024-09-30T23:59:59-04:00"
     },
     {
       "name": "HAM Radio YSWS",
@@ -765,7 +765,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C01G6UJT2RM",
       "status": "ended",
-      "ended": "2024-05-31T23:59:59-07:00"
+      "ended": "2024-05-31T23:59:59-04:00"
     },
     {
       "name": "Trick or Trace",
@@ -773,7 +773,7 @@
       "website": "https://trickortrace.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07QMQ26X4G",
       "status": "ended",
-      "ended": "2024-10-21T23:59:59-07:00"
+      "ended": "2024-10-21T23:59:59-04:00"
     },
     {
       "name": "Anchor",
@@ -781,7 +781,7 @@
       "website": "https://anchor.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07V5401VMY",
       "status": "ended",
-      "ended": "2025-01-27T23:59:59-07:00"
+      "ended": "2025-01-27T23:59:59-04:00"
     },
     {
       "name": "High Seas",
@@ -789,7 +789,7 @@
       "website": "https://highseas.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07PZMBUNDS",
       "status": "ended",
-      "deadline": "2025-01-31T23:59:59-07:00"
+      "deadline": "2025-01-31T23:59:59-04:00"
     },
     {
       "name": "Neon",
@@ -797,7 +797,7 @@
       "website": "https://neon.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C080GFRKXJ5",
       "status": "ended",
-      "deadline": "2025-01-31T23:59:59-07:00"
+      "deadline": "2025-01-31T23:59:59-04:00"
     },
     {
       "name": "Say Cheese!",
@@ -805,7 +805,7 @@
       "website": "https://saycheese.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07QKKZPVD0",
       "status": "ended",
-      "deadline": "2025-01-26T23:59:59-07:00"
+      "deadline": "2025-01-26T23:59:59-04:00"
     },
     {
       "name": "Cargo Cult",
@@ -813,7 +813,7 @@
       "website": null,
       "slack": "https://slack.com/archives/C0121LVV79P",
       "status": "ended",
-      "ended": "2024-12-31T23:59:59-07:00"
+      "ended": "2024-12-31T23:59:59-04:00"
     },
     {
       "name": "Winter Boba Drops",
@@ -821,7 +821,7 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
       "status": "ended",
-      "ended": "2024-12-31T23:59:59-07:00"
+      "ended": "2024-12-31T23:59:59-04:00"
     }
   ]
 }
