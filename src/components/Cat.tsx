@@ -61,14 +61,14 @@ const Cat: React.FC = () => {
       </div>
 
       {loading && (
-        <div className="flex justify-center items-center h-[200px]">
+        <div className="flex justify-center items-center mb-8">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
         </div>
       )}
 
       {catImageUrl
-        ? catImageUrl.map(url => <BouncingCat imageUrl={url} onLoad={handleCatLoaded}/>)
-        : <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">Click the button to see a cat!</p>
+        ? catImageUrl.map((url, key) => <BouncingCat imageUrl={url} key={key} onLoad={handleCatLoaded}/>)
+        : <p className="text-xl text-gray-600 dark:text-gray-300">Click the button to see a cat!</p>
       }
 
       <div className="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg max-w-2xl mx-auto">
