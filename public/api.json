@@ -9,8 +9,9 @@
   },
   {
     "name": "Spatula",
-    "description": "Ship an app or script that sends push notifications. Get grant for Twilio SMS",
+    "description": "Ship an app or script that sends push notifications. Get grant for Telnyx SMS",
     "website": "https://spatula.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C093Q40FU3C",
     "status": "active",
     "deadline": "2025-07-03T16:59:59-04:00"
   },
@@ -449,7 +450,7 @@
   {
     "name": "OnBoard Live",
     "description": "Design a PCB live on YouTube for $5/hour PCB credit.",
-    "website": null,
+    "website": "https://hackclub.com/onboard/",
     "slack": "https://hackclub.slack.com/archives/C07F3EA2L8G",
     "status": "indefinite"
   },
@@ -457,7 +458,7 @@
     "name": "Grub",
     "description": "You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.",
     "website": "https://grub.hackclub.com/",
-    "slack": null,
+    "slack": "https://hackclub.slack.com/archives/C08S9NCEULB",
     "status": "indefinite"
   },
   {
@@ -484,7 +485,7 @@
   {
     "name": "Hackumentary",
     "description": "You Ship a project with dev vlogs, We Ship points through which you can buy goodies",
-    "website": null,
+    "website": "https://hackumentary.vercel.app/",
     "slack": "https://hackclub.slack.com/archives/C08NH401M2S",
     "status": "draft"
   },
@@ -498,7 +499,7 @@
   {
     "name": "Hackducky",
     "description": "Create A DuckyScript get a Rubber Ducky ! ( hackducky )",
-    "website": null,
+    "website": "https://hackducky.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C08B8HZBC85",
     "status": "draft"
   },
@@ -533,14 +534,14 @@
   {
     "name": "Light Up",
     "description": "Design an electronic circuit with lights, and Hack Club sends you the components and gifts.",
-    "website": null,
+    "website": "https://anirudh12032008.github.io/light-up/",
     "slack": "https://hackclub.slack.com/archives/C07RNEJ13LJ",
-    "status": "draft"
+    "status": "ditched"
   },
   {
     "name": "Aether",
     "description": "Build a Windows app, and Hack Club provides a Microsoft Store developer account.",
-    "website": null,
+    "website": "https://aetherysws.vercel.app/",
     "slack": "https://hackclub.slack.com/archives/C07V78URSGL",
     "status": "draft"
   },
@@ -591,14 +592,13 @@
     "description": "You ship a ML Robot, We ship a Jetson Nano / Jetson Orin Nano",
     "website": "https://jetsu.vercel.app",
     "slack": "https://slack.com/archives/C08GPNV0P0W",
-    "status": "draft",
-    "deadline": "2025-07-31T23:59:59-04:00"
+    "status": "ditched"
   },
   {
-    "name": "Hackclub market",
+    "name": "HackClub market",
     "description": "You can buy/sell pcb's online",
     "website": "https://market.hackclub.com",
-    "slack": "https://app.slack.com/client/T0266FRGM/C089VQAULJ0",
+    "slack": "https://hackclub.slack.com/archives/C089VQAULJ0",
     "status": "draft"
   },
   {
@@ -620,7 +620,7 @@
     "description": "You ship a YouTube channel, we ship points for every video to spend on video equipment!",
     "website": "https://wetubeysws.vercel.app/",
     "slack": "https://slack.com/archives/C07U8QM9MEF",
-    "status": "draft"
+    "status": "ditched"
   },
   {
     "name": "Mini MIDI Magic",
@@ -641,7 +641,7 @@
     "description": "You ship a pride themed website, we ship a blahaj",
     "website": null,
     "slack": "https://slack.com/archives/C08BL0ELHLJ",
-    "status": "draft"
+    "status": "ditched"
   },
   {
     "name": "Hack Drive",
@@ -681,7 +681,7 @@
   {
     "name": "Pyramid Scheme",
     "description": "Put up Hack Club posters to earn prizes.",
-    "website": null,
+    "website": "https://pyramid.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C07N1TCHY3T",
     "status": "indefinite"
   },
@@ -691,7 +691,7 @@
     "website": null,
     "slack": "https://hackclub.slack.com/archives/C045S4393CY",
     "status": "ended",
-    "ended": "2025-03-09T23:59:59-04:00"
+    "deadline": "2025-03-09T23:59:59-04:00"
   },
   {
     "name": "Sock",
@@ -699,7 +699,7 @@
     "website": null,
     "slack": "https://hackclub.slack.com/archives/C08DPRYMWF8",
     "status": "ended",
-    "ended": "2025-03-01T23:59:59-04:00"
+    "deadline": "2025-03-01T23:59:59-04:00"
   },
   {
     "name": "Easel",
@@ -707,7 +707,7 @@
     "website": "https://easel.hackclub.com/orpheus-finds-easel",
     "slack": "https://hackclub.slack.com/archives/C06T22ZFQGP",
     "status": "ended",
-    "ended": "2024-06-30T23:59:59-04:00"
+    "deadline": "2024-06-30T23:59:59-04:00"
   },
   {
     "name": "Blot",
@@ -715,7 +715,7 @@
     "website": "https://blot.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C04GCH8A91D",
     "status": "ended",
-    "ended": "2024-11-23T23:59:59-04:00"
+    "deadline": "2024-11-23T23:59:59-04:00"
   },
   {
     "name": "Boba Manor",
@@ -723,7 +723,7 @@
     "website": "https://manor.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
     "status": "ended",
-    "ended": "2024-10-31T23:59:59-04:00"
+    "deadline": "2024-10-31T23:59:59-04:00"
   },
   {
     "name": "Retrospect",
@@ -731,7 +731,7 @@
     "website": "https://retrospect.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C07MUFXNG82",
     "status": "ended",
-    "ended": "2024-10-08T23:59:59-04:00"
+    "deadline": "2024-10-08T23:59:59-04:00"
   },
   {
     "name": "LLM YSWS",
@@ -739,7 +739,7 @@
     "website": null,
     "slack": "https://hackclub.slack.com/archives/C07KYNWR10W",
     "status": "ended",
-    "ended": "2024-10-01T23:59:59-04:00"
+    "deadline": "2024-10-01T23:59:59-04:00"
   },
   {
     "name": "Arcade",
@@ -747,7 +747,7 @@
     "website": "https://hackclub.com/arcade",
     "slack": "https://hackclub.slack.com/archives/C06SBHMQU8G",
     "status": "ended",
-    "ended": "2024-09-01T23:59:59-04:00"
+    "deadline": "2024-09-01T23:59:59-04:00"
   },
   {
     "name": "The Bin",
@@ -755,7 +755,7 @@
     "website": "https://bin.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C01FXNNF6F2",
     "status": "ended",
-    "ended": "2024-09-30T23:59:59-04:00"
+    "deadline": "2024-09-30T23:59:59-04:00"
   },
   {
     "name": "HAM Radio YSWS",
@@ -763,7 +763,7 @@
     "website": null,
     "slack": "https://hackclub.slack.com/archives/C01G6UJT2RM",
     "status": "ended",
-    "ended": "2024-05-31T23:59:59-04:00"
+    "deadline": "2024-05-31T23:59:59-04:00"
   },
   {
     "name": "Trick or Trace",
@@ -771,7 +771,7 @@
     "website": "https://trickortrace.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C07QMQ26X4G",
     "status": "ended",
-    "ended": "2024-10-21T23:59:59-04:00"
+    "deadline": "2024-10-21T23:59:59-04:00"
   },
   {
     "name": "Anchor",
@@ -779,7 +779,7 @@
     "website": "https://anchor.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C07V5401VMY",
     "status": "ended",
-    "ended": "2025-01-27T23:59:59-04:00"
+    "deadline": "2025-01-27T23:59:59-04:00"
   },
   {
     "name": "High Seas",
@@ -811,14 +811,14 @@
     "website": null,
     "slack": "https://slack.com/archives/C0121LVV79P",
     "status": "ended",
-    "ended": "2024-12-31T23:59:59-04:00"
+    "deadline": "2024-12-31T23:59:59-04:00"
   },
   {
-    "name": "Say Cheese!",
-    "description": "Fit a program in a QR code, get a portable printer and maybe a Blåhaj.",
-    "website": "https://saycheese.hackclub.com/",
-    "slack": "https://hackclub.slack.com/archives/C07QKKZPVD0",
+    "name": "Winter Boba Drops",
+    "description": "Create a winter-themed static website, get a boba plushie!",
+    "website": null,
+    "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
     "status": "ended",
-    "ended": "2025-01-26T23:59:59-04:00"
+    "deadline": "2024-12-31T23:59:59-04:00"
   }
 ]

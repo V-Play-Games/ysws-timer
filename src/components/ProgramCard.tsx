@@ -68,7 +68,9 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
             ? 'border-green-500 bg-white dark:bg-green-800'
             : program.status === 'draft'
               ? 'border-gray-400 bg-gray-50 dark:bg-gray-700'
-              : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
+              : program.status === 'ditched'
+                ? 'border-gray-400 bg-black-50 dark:bg-gray-900'
+                : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
     }`}
   >
     {/* 2x2 Grid BaseLayout */}
@@ -104,6 +106,8 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
           <span className="px-2 py-1 rounded-full bg-green-100 text-green-800">Undefined</span>
         ) : program.status === 'draft' ? (
           <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Draft</span>
+        ) : program.status === 'ditched' ? (
+          <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-900">Ditched</span>
         ) : (
           <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-800">Ended</span>
         )}

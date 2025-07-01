@@ -75,7 +75,12 @@ const TimerPage: React.FC = () => {
         program.status !== 'draft' &&
         program.status !== 'active' &&
         program.status !== 'undefined' &&
+        program.status !== 'ditched' &&
         (program.status === 'ended' || calcTime(program.deadline).total <= 0)
+    },
+    {
+      title: "Ditched Programs",
+      filter: program => program.status === 'ditched'
     }
   ];
 

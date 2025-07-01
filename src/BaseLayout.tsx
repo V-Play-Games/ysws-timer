@@ -7,7 +7,7 @@ const BaseLayout: React.FC = () => (
       <img src="/vpg.png" alt="VPG Icon" className="w-10 h-10 mr-3"/>
       <nav className="space-x-6">
         <Link to="/" className="text-white no-underline hover:text-blue-400 transition-colors">Timer</Link>
-        <Link to="/aboutme" className="text-white no-underline hover:text-blue-400 transition-colors">About Me</Link>
+        <Link to="/about" className="text-white no-underline hover:text-blue-400 transition-colors">About Me</Link>
         <Link to="/cat" className="text-white no-underline hover:text-blue-400 transition-colors">Cat</Link>
       </nav>
     </header>
