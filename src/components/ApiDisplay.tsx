@@ -93,7 +93,7 @@ const ApiDisplay: React.FC = () => {
     </div>
   );
 
-  return <div className="container mx-auto p-4 max-w-7xl">
+  return <div className="container mx-auto p-4 max-w-4xl">
     {programCategories.map((category, categoryIndex) => {
       const filteredPrograms = data?.filter(program =>
         category.filter(program, calculateTimeRemaining)
