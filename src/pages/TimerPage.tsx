@@ -5,6 +5,7 @@ import type {Program} from '../types/program.ts';
 type ProgramCategory = {
   title: string;
   filter: (program: Program, calculateTimeRemaining: (deadline?: string) => TimeRemaining) => boolean;
+  reversed?: boolean;
 };
 
 const TimerPage: React.FC = () => {
@@ -39,7 +40,7 @@ const TimerPage: React.FC = () => {
     }
     const deadlineDate = new Date(deadline);
     const now = new Date();
-    const total = Math.max(0, deadlineDate.getTime() - now.getTime());
+    const total = deadlineDate.getTime() - now.getTime();
 
     // Calculate all time parts
     const seconds = Math.floor((total / 1000) % 60);
@@ -71,12 +72,8 @@ const TimerPage: React.FC = () => {
     {
       title: "Expired Programs",
       filter: (program, calcTime) =>
-        program.status !== 'indefinite' &&
-        program.status !== 'draft' &&
-        program.status !== 'active' &&
-        program.status !== 'undefined' &&
-        program.status !== 'ditched' &&
-        (program.status === 'ended' || calcTime(program.deadline).total <= 0)
+        program.status === 'ended' || (program.status === 'active' && calcTime(program.deadline).total <= 0),
+      reversed: true
     },
     {
       title: "Ditched Programs",
@@ -103,19 +100,25 @@ const TimerPage: React.FC = () => {
         category.filter(program, calculateTimeRemaining)
       );
 
+      if (category.reversed) filteredPrograms?.reverse();
+
       if (!filteredPrograms || filteredPrograms.length === 0) return null;
 
-      return <section key={categoryIndex} className="mb-8 transition-all duration-300 ease-in-out">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white border-b pb-2">
-          {category.title} ({filteredPrograms.length})
-        </h2>
-        <div className="flex flex-col space-y-6 transition-all duration-300">
-          {filteredPrograms.map((program, index) =>
-            <div key={index} className="transform transition-all duration-300 hover:scale-[1.01]">
-              <ProgramCard program={program} calculateTimeRemaining={calculateTimeRemaining}/>
-            </div>
-          )}
-        </div>
+      return <section key={categoryIndex} className="mb-4 transition-all duration-300 ease-in-out">
+        <details open className="cursor-pointer">
+          <summary className="text-2xl font-bold text-blue-500 hover:opacity-80 rounded transition-all duration-200 border-b mb-4">
+            <span className="text-gray-800 dark:text-white">
+              {category.title} ({filteredPrograms.length})
+            </span>
+          </summary>
+          <div className="flex flex-col space-y-6 transition-all duration-300">
+            {filteredPrograms.map((program, index) =>
+              <div key={index} className="transform transition-all duration-300 hover:scale-[1.01]">
+                <ProgramCard program={program} calculateTimeRemaining={calculateTimeRemaining}/>
+              </div>
+            )}
+          </div>
+        </details>
       </section>
     })}
   </div>

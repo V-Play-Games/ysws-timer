@@ -61,7 +61,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
   return <div
     className={`rounded-lg shadow-md overflow-hidden border-l-4 pl-5 pr-5 pt-2 pb-2 ${
       isUrgent
-        ? 'border-green-500 bg-red-50 dark:bg-red-900/30'
+        ? 'border-red-800 bg-red-50 dark:bg-red-900/30'
         : isActive || program.status === 'undefined'
           ? 'border-green-500 bg-blue-50 dark:bg-blue-900/30'
           : program.status === 'indefinite'
