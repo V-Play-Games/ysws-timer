@@ -19,12 +19,11 @@ const ApiDisplay: React.FC = () => {
         }
         return response.json();
       })
-      .then(apiData => {
-        const fetchedData: Program[] = apiData.data;
-        fetchedData.sort((a, b) =>
+      .then((apiData: Program[]) => {
+        apiData.sort((a, b) =>
           calculateTimeRemaining(a.deadline).total - calculateTimeRemaining(b.deadline).total
         );
-        setData(fetchedData);
+        setData(apiData);
       })
       .catch(err => {
         setData(err.message);
