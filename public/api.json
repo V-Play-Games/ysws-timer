@@ -92,7 +92,7 @@
     "website": "https://fixit.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C093145P15W",
     "status": "ended",
-    "deadline": "2025-06-21T02:29:59+5:30"
+    "deadline": "2025-06-21T16:59:59-04:00"
   },
   {
     "name": "Gamefolio",
@@ -814,11 +814,11 @@
     "ended": "2024-12-31T23:59:59-04:00"
   },
   {
-    "name": "Winter Boba Drops",
-    "description": "Create a winter-themed static website, get a boba plushie!",
-    "website": null,
-    "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
+    "name": "Say Cheese!",
+    "description": "Fit a program in a QR code, get a portable printer and maybe a Blåhaj.",
+    "website": "https://saycheese.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C07QKKZPVD0",
     "status": "ended",
-    "ended": "2024-12-31T23:59:59-04:00"
+    "ended": "2025-01-26T23:59:59-04:00"
   }
 ]
