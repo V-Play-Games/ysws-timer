@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import ProgramCard, {type TimeRemaining} from './ProgramCard';
-import type {Program} from '../types/program';
+import ProgramCard, {type TimeRemaining} from '../components/ProgramCard.tsx';
+import type {Program} from '../types/program.ts';
 
 type ProgramCategory = {
   title: string;

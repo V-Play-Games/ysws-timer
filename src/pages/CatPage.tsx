@@ -1,5 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
-import BouncingCat from './BouncingCat';
+import BouncingCat from '../components/BouncingCat.tsx';
 
 const CatPage: React.FC = () => {
   const [catImageUrl, setCatImageUrl] = useState<string[] | null>(null);

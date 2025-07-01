@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectCard from './ProjectCard';
-import type {Project} from '../types/project';
+import ProjectCard from '../components/ProjectCard.tsx';
+import type {Project} from '../types/project.ts';
 
 const AboutPage: React.FC = () => {
   const skills = [
