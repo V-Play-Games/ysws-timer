@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react';
 import BouncingCat from './BouncingCat';
 
-const Cat: React.FC = () => {
+const CatPage: React.FC = () => {
   const [catImageUrl, setCatImageUrl] = useState<string[] | null>(null);
   const [loading, setLoading] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -56,7 +56,7 @@ const Cat: React.FC = () => {
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors"
           disabled={loading}
         >
-          {loading ? 'Loading...' : 'Show Random Cat'}
+          {loading ? 'Loading...' : 'Show Random CatPage'}
         </button>
       </div>
 
@@ -80,4 +80,4 @@ const Cat: React.FC = () => {
   );
 };
 
-export default Cat;
+export default CatPage;

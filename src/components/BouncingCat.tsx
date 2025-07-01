@@ -124,7 +124,7 @@ const BouncingCat: React.FC<BouncingCatProps> = ({imageUrl, onLoad}) => {
       <img
         ref={catRef}
         src={imageUrl}
-        alt="Bouncing Cat"
+        alt="Bouncing CatPage"
         className="absolute w-[200px] h-auto transition-transform duration-100 ease-linear"
         style={{width: '200px'}}
         onLoad={handleImageLoad}

@@ -23,10 +23,16 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
   useEffect(() => {
     if (!program.deadline) return;
 
-    setFormattedDeadline(new Date(program.deadline).toLocaleDateString('en-US', {
+    setFormattedDeadline(new Date(program.deadline).toLocaleDateString('en-IN', {
       year: 'numeric',
       month: 'short',
-      day: '2-digit'
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      timeZoneName: 'short',
+      hour12: false,
+      timeZone: 'UTC'
     }));
 
     // Initial calculation
@@ -65,7 +71,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
               : 'border-gray-400 bg-red-50 dark:bg-red-800/50'
     }`}
   >
-    {/* 2x2 Grid Layout */}
+    {/* 2x2 Grid BaseLayout */}
     <div className="text-xs font-medium mb-2 grid grid-cols-2 gap-4">
       {/* Cell 0,0: Name + Description - Center-Left aligned */}
       <div className="flex flex-col items-start justify-center">
@@ -130,7 +136,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({program, calculateTimeRemainin
       </div>
 
       {/* Cell 1,1: Deadline - Center-Right aligned */}
-      <div className="flex justify-end items-center">
+      <div className="flex justify-end items-center text-right">
         {formattedDeadline && (
           <div>
             <span className="font-semibold text-gray-700 dark:text-gray-200">Deadline:</span>

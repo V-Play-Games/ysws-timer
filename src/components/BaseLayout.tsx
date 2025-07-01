@@ -1,7 +1,7 @@
 import React from "react";
 import {Link, Outlet} from "react-router-dom";
 
-const Layout: React.FC = () => (
+const BaseLayout: React.FC = () => (
   <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-800 font-[Exo_2]">
     <header className="flex items-center justify-between px-8 py-4">
       <img src="/vpg.png" alt="VPG Icon" className="w-10 h-10 mr-3"/>
@@ -15,4 +15,4 @@ const Layout: React.FC = () => (
   </div>
 );
 
-export default Layout;
+export default BaseLayout;

@@ -7,7 +7,7 @@ type ProgramCategory = {
   filter: (program: Program, calculateTimeRemaining: (deadline?: string) => TimeRemaining) => boolean;
 };
 
-const ApiDisplay: React.FC = () => {
+const TimerPage: React.FC = () => {
   const [data, setData] = useState<Program[] | string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -116,4 +116,4 @@ const ApiDisplay: React.FC = () => {
   </div>
 };
 
-export default ApiDisplay;
+export default TimerPage;

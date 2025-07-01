@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import type {Project} from '../types/project';
 
-const AboutMe: React.FC = () => {
+const AboutPage: React.FC = () => {
   const skills = [
     'Java', 'Kotlin', 'Android', 'Shell', 'HTML', 'CSS', 'JavaScript', 'TypeScript',
   ];
@@ -164,4 +164,4 @@ const AboutMe: React.FC = () => {
   </div>
 };
 
-export default AboutMe;
+export default AboutPage;
