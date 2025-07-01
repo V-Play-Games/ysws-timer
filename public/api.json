@@ -109,7 +109,7 @@
     "website": "https://illumination.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C091MS57D37",
     "status": "active",
-    "deadline": ""
+    "deadline": "2025-07-10T23:59:59-04:00"
   },
   {
     "name": "Summer of Making",
@@ -431,7 +431,8 @@
     "description": "Design a PCB and we'll fabricate it for you.",
     "website": "https://hackclub.com/onboard",
     "slack": "https://hackclub.slack.com/archives/C056AMWSFKJ",
-    "status": "ended"
+    "status": "ended",
+    "deadline": "2025-05-01T23:59:59-04:00"
   },
   {
     "name": "Boba Drops",
@@ -576,9 +577,9 @@
   {
     "name": "Constellation",
     "description": "You ship a self host, full stack website, we ship a Raspberry Pi Zero 2 W to host it on",
-    "website": null,
+    "website": "https://constellation.hackclub.com/",
     "slack": "https://slack.com/archives/C07TQPAGAMA",
-    "status": "ended"
+    "status": "ditched"
   },
   {
     "name": "The Zoo",
@@ -816,7 +817,7 @@
   {
     "name": "Winter Boba Drops",
     "description": "Create a winter-themed static website, get a boba plushie!",
-    "website": null,
+    "website": "https://boba.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C06UJR8QW0M",
     "status": "ended",
     "deadline": "2024-12-31T23:59:59-04:00"
