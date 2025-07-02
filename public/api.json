@@ -1,5 +1,13 @@
 [
   {
+    "name": "Pathfinder",
+    "description": "Make a custom PCB controller board and efidget, get grants and materials to build it!",
+    "website": "https://pathfinder.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C0943DE80E4",
+    "status": "active",
+    "deadline": "2025-07-04T23:59:59-04:00"
+  },
+  {
     "name": "Riceathon v2",
     "description": "Customize your Linux install, and get programmer socks or a Blåhaj.",
     "website": "https://github.com/HackClub/riceathon",
@@ -24,7 +32,7 @@
   },
   {
     "name": "Anansi",
-    "description": "Build a webscraper, upload your dataset to Kaggle, Get a comic book!",
+    "description": "Build a web scraper, upload your dataset to Kaggle, Get a comic book!",
     "website": "https://anansi.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C094J1QDU72",
     "status": "active",
