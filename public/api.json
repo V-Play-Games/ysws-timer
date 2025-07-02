@@ -1,5 +1,13 @@
 [
   {
+    "name": "Anansi",
+    "description": "Build a webscraper, upload your dataset to Kaggle, Get a comic book!",
+    "website": "https://anansi.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C094J1QDU72",
+    "status": "active",
+    "deadline": "2025-07-04T23:59:59-04:00"
+  },
+  {
     "name": "Rewind",
     "description": "Build a desktop app, Get stickers, artifacts + a framed Windows XP image!",
     "website": "https://rewind.hackclub.com/",
