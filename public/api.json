@@ -1,5 +1,13 @@
 [
   {
+    "name": "Athena Awards",
+    "description": "Make 3 projects worth 30 hours, you get to:\n1. Earn Hack Club's Athena Award, an industry recognized technical certificate.\n2. Travel to New York City for 2025's largest high school hackathon for girls!\n3. Win prizes as you code, including laptops, iPads, Flipper Zeros, headphones and hoodies.",
+    "website": "https://athena.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C06T17NQB0B",
+    "status": "active",
+    "deadline": "2025-10-31T23:59:59-04:00"
+  },
+  {
     "name": "Anansi",
     "description": "Build a webscraper, upload your dataset to Kaggle, Get a comic book!",
     "website": "https://anansi.hackclub.com/",
