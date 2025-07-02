@@ -8,6 +8,14 @@
     "deadline": "2025-10-31T23:59:59-04:00"
   },
   {
+    "name": "Decode",
+    "description": "Learn how a tech product works (hardware + software) and we ship you a grant to make it yourself!",
+    "website": "https://decode.hackclub.dev",
+    "slack": "https://hackclub.slack.com/archives/C091GPYCAFL",
+    "status": "active",
+    "deadline": "2025-07-09T23:59:59-04:00"
+  },
+  {
     "name": "Anansi",
     "description": "Build a webscraper, upload your dataset to Kaggle, Get a comic book!",
     "website": "https://anansi.hackclub.com/",
