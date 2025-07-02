@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard.tsx';
 import type {Project} from '../types/project.ts';
+import BlueLink from "../components/BlueLink";
 
 const AboutPage: React.FC = () => {
   const skills = [
@@ -123,10 +124,9 @@ const AboutPage: React.FC = () => {
           <ProjectCard key={index} project={project}/>
         )}
         <p className="text-sm text-blue-500 dark:text-blue-400 mt-2">
-          <a href="https://github.com/V-Play-Games?tab=repositories"
-             className="hover:opacity-80 transition-all" target="_blank" rel="noopener noreferrer">
+          <BlueLink href="https://github.com/V-Play-Games?tab=repositories">
             ... and more
-          </a>
+          </BlueLink>
         </p>
       </div>
 
@@ -134,16 +134,14 @@ const AboutPage: React.FC = () => {
       <h3 className="text-xl font-semibold mt-8 mb-3 text-gray-700 dark:text-gray-100">Let's Connect!</h3>
       <div className="space-y-2 text-gray-600 dark:text-gray-300">
         <p><strong>Email: </strong>
-          <a href="mailto:vaibhavnargwani28@gmail.com"
-             className="text-blue-600 dark:text-blue-400 hover:opacity-80 transition-all">
+          <BlueLink href="mailto:vaibhavnargwani28@gmail.com">
             vaibhavnargwani28@gmail.com
-          </a>
+          </BlueLink>
         </p>
         <p><strong>GitHub: </strong>
-          <a href="https://github.com/V-Play-Games"
-             className="text-blue-600 dark:text-blue-400 hover:opacity-80 transition-all">
+          <BlueLink href="https://github.com/V-Play-Games">
             github.com/V-Play-Games
-          </a>
+          </BlueLink>
         </p>
       </div>
 
