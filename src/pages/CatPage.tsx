@@ -1,5 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 import BouncingCat from '../components/BouncingCat.tsx';
+import {Link} from "react-router-dom";
 
 const CatPage: React.FC = () => {
   const [catImageUrl, setCatImageUrl] = useState<string[] | null>(null);
@@ -9,7 +10,7 @@ const CatPage: React.FC = () => {
   // Initialize audio element but don't play it yet
   useEffect(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio('https://github.com/fachinformatiker/undertale/raw/refs/heads/master/sound/audio/mus_temvillage.ogg');
+      audioRef.current = new Audio('/mus_temvillage.ogg');
       audioRef.current.loop = true;
     }
   }, []);
@@ -56,7 +57,7 @@ const CatPage: React.FC = () => {
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors"
           disabled={loading}
         >
-          {loading ? 'Loading...' : 'Show Random CatPage'}
+          {loading ? 'Loading...' : 'Show Random Cat'}
         </button>
       </div>
 
@@ -73,7 +74,7 @@ const CatPage: React.FC = () => {
 
       <div className="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg max-w-2xl mx-auto">
         <p className="text-gray-700 dark:text-gray-300 italic">
-          This page features cute cat content from cataas.com!
+          This page features <nav><Link to="/cat/super">cute</Link></nav> cat content from cataas.com!
         </p>
       </div>
     </div>
