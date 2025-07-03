@@ -1,5 +1,12 @@
 [
   {
+    "name": "Minigame",
+    "description": "Spend 5-10 hours creating a polished, small minigame, earn a $20 grant to purchase game development tools to kickstart your hobby!",
+    "website": "https://minigame.hackclub.dev/",
+    "slack": "https://hackclub.slack.com/archives/C093SSC3Z16",
+    "status": "undefined"
+  },
+  {
     "name": "Extensify",
     "description": "Build an IDE Extension, get a special keychain or a premium VS Code / Sublime Text Theme!",
     "website": "https://extensify.hackclub.com",
