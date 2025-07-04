@@ -49,6 +49,6 @@ This project is built with:
 
 ## Contributing
 
-Contributions are welcome!
-YSWS organizers are especially encouraged to submit PRs to add or update program timelines.
-
+Contributions are welcome!<br/>
+YSWS organizers are especially encouraged to submit PRs to add or update program timelines.<br/>
+To add or update YSWS details, edit the [public/api.json](public/api.json) file and create a pull request.
