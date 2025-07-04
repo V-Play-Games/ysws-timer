@@ -4,7 +4,7 @@ import type {Program} from '../types/program.ts';
 
 type ProgramCategory = {
   title: string;
-  filter: (program: Program, calculateTimeRemaining: (deadline?: string) => TimeRemaining) => boolean;
+  filter: (program: Program) => boolean;
   reversed?: boolean;
 };
 
@@ -34,11 +34,11 @@ const TimerPage: React.FC = () => {
       });
   }, []);
 
-  const calculateTimeRemaining = (deadline?: string): TimeRemaining => {
-    if (!deadline) {
+  const calculateTimeRemaining = (deadline: string): TimeRemaining => {
+    const deadlineDate = new Date(deadline);
+    if (isNaN(deadlineDate.getTime())) {
       return {days: 0, hours: 0, minutes: 0, seconds: 0, total: 0};
     }
-    const deadlineDate = new Date(deadline);
     const now = new Date();
     const total = deadlineDate.getTime() - now.getTime();
 
@@ -54,30 +54,28 @@ const TimerPage: React.FC = () => {
   const programCategories: ProgramCategory[] = [
     {
       title: "Limited Time Programs",
-      filter: (program, calcTime) =>
-        program.status === 'active' && calcTime(program.deadline).total > 0
+      filter: program => calculateTimeRemaining(program.deadline).total > 0
     },
     {
       title: "Undefined Deadline Programs",
-      filter: program => program.status === 'undefined'
+      filter: program => program.deadline === 'undefined'
     },
     {
       title: "Indefinite Programs",
-      filter: program => program.status === 'indefinite'
+      filter: program => program.deadline === 'indefinite'
     },
     {
       title: "Draft Programs",
-      filter: program => program.status === 'draft'
+      filter: program => program.deadline === 'draft'
     },
     {
       title: "Expired Programs",
-      filter: (program, calcTime) =>
-        program.status === 'ended' || (program.status === 'active' && calcTime(program.deadline).total <= 0),
+      filter: program => calculateTimeRemaining(program.deadline).total < 0,
       reversed: true
     },
     {
       title: "Ditched Programs",
-      filter: program => program.status === 'ditched'
+      filter: program => program.deadline === 'ditched'
     }
   ];
 
@@ -96,9 +94,7 @@ const TimerPage: React.FC = () => {
 
   return <div className="container mx-auto p-4 max-w-4xl">
     {programCategories.map((category, categoryIndex) => {
-      const filteredPrograms = data?.filter(program =>
-        category.filter(program, calculateTimeRemaining)
-      );
+      const filteredPrograms = data?.filter(program => category.filter(program));
 
       if (category.reversed) filteredPrograms?.reverse();
 
@@ -106,7 +102,8 @@ const TimerPage: React.FC = () => {
 
       return <section key={categoryIndex} className="mb-4 transition-all duration-300 ease-in-out">
         <details open className="cursor-pointer">
-          <summary className="text-2xl font-bold text-blue-500 hover:opacity-80 rounded transition-all duration-200 border-b mb-4">
+          <summary
+            className="text-2xl font-bold text-blue-500 hover:opacity-80 rounded transition-all duration-200 border-b mb-4">
             <span className="text-gray-800 dark:text-white">
               {category.title} ({filteredPrograms.length})
             </span>
