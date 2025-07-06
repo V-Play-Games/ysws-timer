@@ -4,4 +4,3 @@ export interface Project {
   tech: string;
   link: string;
 }
-
