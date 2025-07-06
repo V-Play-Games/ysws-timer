@@ -53,12 +53,13 @@ const CatPage: React.FC = () => {
         ? catImageUrl.map((url, key) => <BouncingCat imageUrl={url} key={key} onLoad={handleCatLoaded}/>)
         : <p className="text-xl text-gray-600 dark:text-gray-300">Click the button to see a cat!</p>
       }
-
-      <div className="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg max-w-2xl mx-auto">
-        <p className="text-gray-700 dark:text-gray-300 italic">
-          <nav><Link to="/cat/super">This page features cute cat content from cataas.com!</Link></nav>
-        </p>
-      </div>
+      <nav>
+        <div className="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 dark:text-gray-300 italic">
+            <Link to="/cat/super">This page features cute cat content from cataas.com!</Link>
+          </p>
+        </div>
+      </nav>
     </div>
   );
 };
