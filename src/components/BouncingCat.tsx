@@ -72,8 +72,8 @@ const BouncingCat: React.FC<BouncingCatProps> = ({imageUrl, onLoad}) => {
         velocity.y.randomize();
       }
 
-      velocity.x.clamp(6, -6)
-      velocity.y.clamp(6, -6)
+      velocity.x.clamp(-6, 6)
+      velocity.y.clamp(-6, 6)
 
       catImage.style.transform = `translate(${position.x.value}px, ${position.y.value}px)`;
 
