@@ -21,6 +21,13 @@
     "deadline": "2025-07-07T23:59:59-04:00"
   },
   {
+    "name": "Toolsmith",
+    "description": "Build a AI extension (MCP tool), get $10 of AI credits.",
+    "website": "https://toolsmith.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C094X38BFT5",
+    "deadline": "2025-07-11T23:59:59-04:00"
+  },
+  {
     "name": "Cinema",
     "description": "Make a short story JavaScript animation using canvas, Get HQ-made caramel popcorn! (card grants for international folks)",
     "website": "https://cinema.hackclub.com/",
