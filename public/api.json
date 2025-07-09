@@ -1,13 +1,13 @@
 [
   {
-    "name": "Minigame",
-    "description": "/2025 to 7/11/2025 where you can design your own mouse case and receive the physical case and parts!",
+    "name": "Squeak",
+    "description": "7/5/2025 to 7/11/2025 where you can design your own mouse case and receive the physical case and parts!",
     "website": "https://squeak.hackclub.com",
     "slack": "https://hackclub.slack.com/archives/C094458MVMX",
     "deadline": "2025-07-11T23:59:59-04:00"
   },
   {
-    "name": "squeak",
+    "name": "Minigame",
     "description": "Spend 5-10 hours creating a polished, small minigame, earn a $20 grant to purchase game development tools to kickstart your hobby!",
     "website": "https://minigame.hackclub.dev/",
     "slack": "https://hackclub.slack.com/archives/C093SSC3Z16",
@@ -95,7 +95,7 @@
     "description": "Build a project using the Spotify API with 6 hours on Hackatime, get 3 months of Spotify Premium.",
     "website": "https://pulse.hackclub.dev/",
     "slack": "https://hackclub.slack.com/archives/C090E7XUEA3",
-    "deadline": "2025-11-08T23:59:59-04:00"
+    "deadline": "2025-07-11T23:59:59-04:00"
   },
   {
     "name": "Converge",
