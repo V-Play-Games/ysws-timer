@@ -1,7 +1,14 @@
 [
   {
+    "name": "Smelt",
+    "description": "No idea what is this about, aW5WaXRlIFlvdVIgRnJpRU5EcyBpbiBhIENSWVBUSUMgV2FZIC0tIEZvUiBldmVSIDEwMCBQZW9QbGUgaW4gVEhlIGNIYW5uZWwgdGhlIFRJbWVyIFdJTEwgU1BFRUQgVVAgQlkgMSBIT1VSLiBEb24ndCBtYWtlIFVTIFdPUksgb24gVEhFIFdFRUtFTkQhISEhISE=",
+    "website": "https://smelt.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09535Y8E83",
+    "deadline": "2025-07-16T11:59:59Z"
+  },
+  {
     "name": "Remix",
-    "description": "Remix this beat, and if you create something, you're guaranteed a placement on Hack Club's official album.",
+    "description": "Remix this beat, and if you create something, you get stickers!",
     "website": "https://remix.hackclub.com",
     "slack": "https://hackclub.slack.com/archives/C095614E9B3",
     "deadline": "2025-07-11T23:59:59-04:00"
