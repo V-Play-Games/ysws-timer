@@ -1,5 +1,12 @@
 [
   {
+    "name": "Timeless",
+    "description": "Make a video game that could last someone 10 years. If you do, we'll send you a paperback by Boss Fight Books.",
+    "website": "https://timeless.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C0956A8CL86",
+    "deadline": "2025-07-24T00:00:00-04:00"
+  },
+  {
     "name": "Jumpstart v2",
     "description": "Create a game in 20 hours, earn a high-quality gaming console!",
     "website": "https://jumpstart.hackclub.com",
