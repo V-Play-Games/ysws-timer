@@ -158,7 +158,7 @@
     "description": "Build bots, win prizes",
     "website": "https://converge.hackclub.com",
     "slack": "https://hackclub.slack.com/archives/C091UF79VDM",
-    "deadline": "2025-07-15T23:59:59-04:00"
+    "deadline": "2025-07-17T23:59:59-04:00"
   },
   {
     "name": "Hash Core",
@@ -179,7 +179,7 @@
     "description": "Make an esolang, get stickers and a $40 electronics grant.",
     "website": "https://twist.hackclub.dev",
     "slack": "https://hackclub.slack.com/archives/C092A93FA4X",
-    "deadline": "2025-07-14T23:59:59-04:00"
+    "deadline": "2025-07-16T23:59:59-04:00"
   },
   {
     "name": "Hackmate",
@@ -473,7 +473,7 @@
     "description": "You Ship A Slack bot. We Ship A limited edition Orpheus bucket hat.",
     "website": null,
     "slack": "https://hackclub.slack.com/archives/C06V2GEV3MY",
-    "deadline": "2025-07-15T23:59:59-04:00"
+    "deadline": "2025-07-16T23:59:59-04:00"
   },
   {
     "name": "Shipwrecked",
