@@ -1,5 +1,33 @@
 [
   {
+    "name": "Gemini",
+    "description": "Build and ship an Android app, Get an Android phone, tablet, watch or headphones (up to $100) and $25 for your Android dev account.",
+    "website": "https://gemini.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C094VQKH1FV",
+    "deadline": "2025-08-11T23:59:59-04:00"
+  },
+  {
+    "name": "Railway",
+    "description": "Build a site with Ruby on Rails, receive stickers!",
+    "website": "https://railway.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C094T1FL2KG",
+    "deadline": "2025-07-22T23:59:59-04:00"
+  },
+  {
+    "name": "TerminalCraft v3",
+    "description": "Build a terminal program for 15 hours and get up to $60 for hardware",
+    "website": "https://terminalcraft.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C08F58MT3GV",
+    "deadline": "2025-06-21T23:59:59-04:00"
+  },
+  {
+    "name": "Rewind v2",
+    "description": "Make an app that runs on Windows XP, get stickers + super cool headphones from KOSS (the KTX Pro 1 or Porta Pros).",
+    "website": "https://rewind.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C093ALFAW8K",
+    "deadline": "2025-08-12T23:59:59-04:00"
+  },
+  {
     "name": "Smelt",
     "description": "No idea what is this about, aW5WaXRlIFlvdVIgRnJpRU5EcyBpbiBhIENSWVBUSUMgV2FZIC0tIEZvUiBldmVSIDEwMCBQZW9QbGUgaW4gVEhlIGNIYW5uZWwgdGhlIFRJbWVyIFdJTEwgU1BFRUQgVVAgQlkgMSBIT1VSLiBEb24ndCBtYWtlIFVTIFdPUksgb24gVEhFIFdFRUtFTkQhISEhISE=",
     "website": "https://smelt.hackclub.com/",
@@ -130,7 +158,7 @@
     "description": "Build a game, build a bot to beat it, get compute to do more AI stuff.",
     "website": "https://reinforced.hackclub.dev/",
     "slack": "https://hackclub.slack.com/archives/C092JUZ7V7Y",
-    "deadline": "2025-07-16T23:59:59-04:00"
+    "deadline": "2025-07-18T23:59:59-04:00"
   },
   {
     "name": "Twist",
@@ -144,7 +172,7 @@
     "description": "Build a collaborative app, ship it, and get rewarded with cloud credits/raspberry pi!",
     "website": "https://hackmate.hackclub.dev/",
     "slack": "https://hackclub.slack.com/archives/C092HR1LG20",
-    "deadline": "2025-07-15T23:59:59-04:00"
+    "deadline": "2025-07-17T23:59:59-04:00"
   },
   {
     "name": "Silicon",
@@ -172,14 +200,14 @@
     "description": "You Ship: Make your portfolio site in the style of your favorite game\nWe Ship: $20 grant card which can be spent on either domains or hosting.",
     "website": "https://gamefolio.hackclub.dev/",
     "slack": "https://hackclub.slack.com/archives/C08RT4C2485",
-    "deadline": "2025-07-15T23:59:59-04:00"
+    "deadline": "2025-07-22T23:59:59-04:00"
   },
   {
     "name": "Illumination",
     "description": "You Ship: a program that runs on an ESP32, a backend that connects to your ESP32, and a website to control your ESP32 and backend.\nWe Ship: a cool ESP32-S3 based devboard, hardware parts you choose, and cloud credits to run your backend with.",
     "website": "https://illumination.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C091MS57D37",
-    "deadline": "2025-07-10T23:59:59-04:00"
+    "deadline": "2025-07-15T23:59:59-04:00"
   },
   {
     "name": "Summer of Making",
@@ -200,7 +228,7 @@
     "description": "Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.",
     "website": "https://waveband.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C082S5V95G8",
-    "deadline": "2025-07-11T23:59:59-04:00"
+    "deadline": "2025-07-13T23:59:59-04:00"
   },
   {
     "name": "Highway",
@@ -502,6 +530,13 @@
     "website": "https://waffles.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C08QBKX5WCD",
     "deadline": "indefinite"
+  },
+  {
+    "name": "Authmate",
+    "description": "Build a creative authentication system from scratch, Get ???",
+    "website": null,
+    "slack": "https://hackclub.slack.com/archives/C0963JU3CSD",
+    "deadline": "draft"
   },
   {
     "name": "Hack A Home",
