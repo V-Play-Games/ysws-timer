@@ -1,5 +1,12 @@
 [
   {
+    "name": "Jumpstart v2",
+    "description": "Create a game in 20 hours, earn a high-quality gaming console!",
+    "website": "https://jumpstart.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C0266FRGT/p1752084905011279",
+    "deadline": "2025-08-9T23:59:59-04:00"
+  },
+  {
     "name": "Gemini",
     "description": "Build and ship an Android app, Get an Android phone, tablet, watch or headphones (up to $100) and $25 for your Android dev account.",
     "website": "https://gemini.hackclub.com",
