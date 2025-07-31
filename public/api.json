@@ -550,7 +550,7 @@
     "description": "You ship a full-stack web application, and we ship you a grant to a waffle house.",
     "website": "https://waffles.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C08QBKX5WCD",
-    "deadline": "indefinite"
+    "deadline": "2025-08-03T23:59:59-04:00"
   },
   {
     "name": "Authmate",
