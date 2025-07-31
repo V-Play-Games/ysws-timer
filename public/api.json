@@ -1,5 +1,12 @@
 [
   {
+    "name": "cmd + k",
+    "description": "Build a Raycast extension, get Raycast Pro & stickers",
+    "website": "https://cmd-k.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C0981BXG124",
+    "deadline": "2025-08-17T23:59:59-04:00"
+  },
+  {
     "name": "overflow: hidden;",
     "description": "Ship a website that doesn't have any native scrollbars, get some stickers + flex tape!",
     "website": "https://overflow-hidden.hackclub.com/",
