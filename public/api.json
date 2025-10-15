@@ -1,5 +1,250 @@
 [
   {
+    "name": "Craft",
+    "description": "Ship a Minecraft plugin/mod/map & get rewards! Complete onboarding to participate.",
+    "website": "https://craft.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09E15S589K",
+    "deadline": "2025-10-03T23:59:59-04:00"
+  },
+  {
+    "name": "Penumbra",
+    "description": "Ship a shader, we'll ship you the poster! GPUs for the most dedicated!",
+    "website": "https://penumbra.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09EC7ZS05S",
+    "deadline": "2025-10-08T23:59:59-04:00"
+  },
+  {
+    "name": "Shallow Learning",
+    "description": "Ship a project that leverages a not-necessarily-so-deep neural network to produce some cool generated content. We will give $5/hr for monthly subscriptions and usage costs on AI platforms.",
+    "website": "https://shallow-learning.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09EZ0B4DEE",
+    "deadline": "2025-10-12T23:59:59-04:00"
+  },
+  {
+    "name": "Hackberry",
+    "description": "3 weeks to build a Python program using OpenCV (or any other Computer Vision libraries) and receive multiple Raspberry Pi prizes!",
+    "website": "https://hackberry.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09G2DXLP55",
+    "deadline": "2025-10-12T23:59:59-04:00"
+  },
+  {
+    "name": "Playphone",
+    "description": "Build an amazing game together! Signups close Oct 15th.",
+    "website": "https://playphone.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09GJS3PH47",
+    "deadline": "2025-10-15T23:59:59-04:00"
+  },
+  {
+    "name": "Gamebit",
+    "description": "Make a game in our online editor using CircuitPython, Get sent a handheld game console or a custom tamagotchi pet!",
+    "website": "https://gamebit.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09GJS3PH47",
+    "deadline": "draft"
+  },
+  {
+    "name": "Alleyway",
+    "description": "Build wearable gadgets -> fly to LA for a hardware convention",
+    "website": "https://alley.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09EQ4YNPM2",
+    "deadline": "undefined"
+  },
+  {
+    "name": "enclosure",
+    "description": "Make a case. Get it printed. Collect stickers.",
+    "website": "https://enclosure-ashen.vercel.app/",
+    "slack": "https://hackclub.slack.com/archives/C092D99G1RU",
+    "deadline": "draft"
+  },
+  {
+    "name": "Moonshot",
+    "description": "Code for 75 hours, ship your projects on Launchpad, then you and 100 Hack Clubbers will fly to Orlando, Florida, December 12–15.",
+    "website": "https://moonshot.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09J2HHRQ95",
+    "deadline": "2025-12-12T23:59:59-05:00"
+  },
+  {
+    "name": "Olympics",
+    "description": "Work along or with a team to build hand-made sites. Win boba and other prizes!",
+    "website": "https://olympics.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09LY6P34D6",
+    "deadline": "draft"
+  },
+  {
+    "name": "Milkyway",
+    "description": "Make games, build houses, get prizes like a trip to SINGAPORE",
+    "website": "https://milkyway.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09EZSEMB16",
+    "deadline": "undefined"
+  },
+  {
+    "name": "ACES",
+    "description": "Design your own virtual board or card game, receive a grant to get it physically made, and an invite to an in-person hackathon in Washington D.C!",
+    "website": "https://aces.hackclub.com/?ref=47",
+    "slack": "https://hackclub.slack.com/archives/C09L87DU3T5",
+    "deadline": "draft"
+  },
+  {
+    "name": "Birthday Cards",
+    "description": "Submit 1 hour on ANY birthday project - get a bday card! Do 3? Get a *secret* present with it! Submit b4 your bday!",
+    "website": "https://birthday-cards.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C099VPF7V3P",
+    "deadline": "2026-08-12T23:59:59-04:00"
+  },
+  {
+    "name": "clutter",
+    "description": "Clutter gives you a $5/hour grant to organize your life.\nYou can spend it on anything that helps you organize your life—from a 1TB SSD to notebooks, to bins, or sticky notes.",
+    "website": "https://clutter.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C0997C887M3",
+    "deadline": "2025-09-17T23:59:59-04:00"
+  },
+  {
+    "name": "fusering",
+    "description": "Design a keyring get your keyring and a carabiner to hang it from!",
+    "website": "https://fusering.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C098U42PD2A",
+    "deadline": "undefined"
+  },
+  {
+    "name": "Shiba",
+    "description": "Make a game with Godot, earn SSS, and get invited to build an arcade in Tokyo (flight stipends available!)",
+    "website": "https://shiba.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09AG5L0L03",
+    "deadline": "2025-11-03T23:59:59-04:00"
+  },
+  {
+    "name": "touch grass",
+    "description": "you ship we suffer. for every hour you spent coding, we ran 200m",
+    "website": "https://grass.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09BQMHB724",
+    "deadline": "2025-09-30T23:59:59-04:00"
+  },
+  {
+    "name": "Branch",
+    "description": "Branch is a collaboration challenge designed to teach you the essentials of Git and GitHub for collaborative coding.",
+    "website": "https://branch.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C08PMA68VEH",
+    "deadline": "draft"
+  },
+  {
+    "name": "bunbougu",
+    "description": "You ship a productivity/school related app and we ship you Japanese stationery and other school supplies",
+    "website": "https://bunbougu.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09AT8ZHYDV",
+    "deadline": "2025-09-30T23:59:59-04:00"
+  },
+  {
+    "name": "waveform",
+    "description": "Create an audio visualizer, get a music subscription/grant",
+    "website": "https://waveform.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09AX5PLLUS",
+    "deadline": "2025-09-26T23:59:59-04:00"
+  },
+  {
+    "name": "Code Quest",
+    "description": "Develop for 5 hours a web game and get a $25 Steam Grant",
+    "website": "https://codequest.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09DTN74MQR",
+    "deadline": "2025-10-07T23:59:59-04:00"
+  },
+  {
+    "name": "Carnival",
+    "description": "Build an extension, plugin, or widget. Unlock resources to enhance your dev environment and fuel your next project.",
+    "website": "https://carnival.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C091ZRTMF16",
+    "deadline": "2025-10-31T23:59:59Z"
+  },
+  {
+    "name": "Blueprint",
+    "description": "You build cool hardware projects (or learn how to) and get funding to make them real!",
+    "website": "https://blueprint.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C083S537USC",
+    "deadline": "2025-12-01T23:59:59-05:00"
+  },
+  {
+    "name": "fanpage",
+    "description": "Ship a project about something you love. Get that merch related to that very thing.",
+    "website": "https://fanpage.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09A37XECJV",
+    "deadline": "2025-10-24T23:59:59-04:00"
+  },
+  {
+    "name": "simmer",
+    "description": "A 3-cycle website building challenge where you cook up something amazing, one iteration at a time.",
+    "website": "https://simmer.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09AQ474DTJ",
+    "deadline": "undefined"
+  },
+  {
+    "name": "Siege",
+    "description": "A 14 week program where the challenge is to ship each week. Only hours shipped at the end of each week count. If you don't ship for a week, you'll be out of the siege. If you make it to the end, you get a framework!",
+    "website": "https://siege.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C08SKC6P85V",
+    "deadline": "2025-12-07T23:59:59-04:00"
+  },
+  {
+    "name": "iframe",
+    "description": "Draw or edit images using any programming language and we will hang your custom image on HQ wall and send a copy to you",
+    "website": "https://iframe.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C098LMVKPCM",
+    "deadline": "2025-08-15T23:59:59-04:00"
+  },
+  {
+    "name": "Self Portrait",
+    "description": "Make a personal website you're proud of, get a photo of it shipped",
+    "website": "https://self-portrait.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C09974327NV",
+    "deadline": "2025-08-11T23:59:59-04:00"
+  },
+  {
+    "name": "NeoHack",
+    "description": "Spend 6 hours making a nvim/vim plugin, get a Neovim shirt!",
+    "website": "https://neohack.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C094E4QHFPX",
+    "deadline": "2025-08-28T23:59:59-04:00"
+  },
+  {
+    "name": "ARMed",
+    "description": "Ship an ARM assembly program, and we ship you lego.",
+    "website": "https://armed.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C098S1A5ZAT",
+    "deadline": "2025-09-10T23:59:59-04:00"
+  },
+  {
+    "name": "Emerge",
+    "description": "You ship an example of an emergent behaviour, for each hour you code you get to add 30 pixels to the collaborative canvas, and at the end every participant gets a poster of the canvas shipped to them :)",
+    "website": "https://emerge.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09900Q6873",
+    "deadline": "2025-11-01T23:59:59-04:00"
+  },
+  {
+    "name": "Roulette",
+    "description": "Spin wheels. Make games. Get prizes.",
+    "website": "https://roulette.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C0997MH9QF2",
+    "deadline": "2025-09-07T23:59:59-04:00"
+  },
+  {
+    "name": "Bitstream",
+    "description": "Design code for an FPGA, get a free FPGA! Learn digital design and get your own development board.",
+    "website": "https://bitstream.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C09AUVACSNM",
+    "deadline": "2025-09-13T23:59:59-04:00"
+  },
+  {
+    "name": "Shush",
+    "description": "You ship: an ssh app. We ship: tux plush toy (or some stuff for a server)",
+    "website": "https://shush.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C098NLJ1328",
+    "deadline": "undefined"
+  },
+  {
+    "name": "Infinity",
+    "description": "Ship an app or game with an infinite canvas",
+    "website": "https://infinity.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C098ARHLXFW",
+    "deadline": "2025-08-25T23:59:59-07:00"
+  },
+  {
     "name": "cmd + k",
     "description": "Build a Raycast extension, get Raycast Pro & stickers",
     "website": "https://cmd-k.hackclub.com",
@@ -242,12 +487,12 @@
     "description": "Build stuff. Get stuff. Repeat.",
     "website": "https://summer.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C015M4L9AHW",
-    "deadline": "2025-08-31T23:59:59-04:00"
+    "deadline": "2025-09-31T23:59:59-04:00"
   },
   {
     "name": "Reactive",
     "description": "Ship a website built with React, get $15 to buy a domain.",
-    "website": "http://reactive.hackclub.dev",
+    "website": "https://reactive.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C090S7Q2HT4",
     "deadline": "2025-07-05T23:59:59-04:00"
   },
@@ -298,7 +543,7 @@
     "description": "Design a keyboard get the parts! Please note this is only open to those who have build a Macropad previously.",
     "website": "https://github.com/hackclub/hackpad",
     "slack": "https://hackclub.slack.com/archives/C07LESGH0B0",
-    "deadline": "undefined"
+    "deadline": "2025-07-31T23:59:59-04:00"
   },
   {
     "name": "Sidequests",
@@ -366,7 +611,7 @@
   {
     "name": "Hacklet",
     "description": "Spend two hours building a creative javascript bookmarklet, get $10 to buy a domain!",
-    "website": "http://hackclub.github.io/hacklet",
+    "website": "https://hackclub.github.io/hacklet",
     "slack": "https://hackclub.slack.com/archives/C08PJMATU8Y",
     "deadline": "2025-05-10T23:59:59-04:00"
   },
@@ -592,7 +837,7 @@
     "description": "Create A DuckyScript get a Rubber Ducky ! ( hackducky )",
     "website": "https://hackducky.hackclub.com/",
     "slack": "https://hackclub.slack.com/archives/C08B8HZBC85",
-    "deadline": "undefined"
+    "deadline": "2025-07-29T23:59:59-04:00"
   },
   {
     "name": "HackABand",
@@ -673,10 +918,10 @@
   },
   {
     "name": "The Zoo",
-    "description": "You ship an interactive animal themed website, we ship themed stickers and posters for top submissions",
-    "website": null,
-    "slack": "https://slack.com/archives/C08K37F66AK",
-    "deadline": "draft"
+    "description": "Make an animal themed Svelte site, earn Ikea Animal Plushies",
+    "website": "https://zoo.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C08K37F66AK",
+    "deadline": "2025-09-20T23:59:59-04:00"
   },
   {
     "name": "Jetsu",
@@ -715,8 +960,8 @@
   },
   {
     "name": "Mini MIDI Magic",
-    "description": "You ship a custom MIDI Synth/Controller with the firmware, we make it and send it to you!",
-    "website": null,
+    "description": "[Moved to under Blueprint.] You ship a custom MIDI Synth/Controller with the firmware, we make it and send it to you!",
+    "website": "https://mini-midi-magic-rho.vercel.app/",
     "slack": "https://slack.com/archives/C081ZV47Z8D",
     "deadline": "draft"
   },
