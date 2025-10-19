@@ -1,5 +1,19 @@
 [
   {
+    "name": "Epoch v2",
+    "description": "A hackathon in India",
+    "website": null,
+    "slack": "https://hackclub.slack.com/archives/C09HX88JVV4",
+    "deadline": "draft"
+  },
+  {
+    "name": "Moonlit Rite",
+    "description": "Online Hardware YSWS (25 Jan - 28 Feb 2026)",
+    "website": null,
+    "slack": "https://hackclub.slack.com/archives/C09GZF8F9T3",
+    "deadline": "draft"
+  },
+  {
     "name": "Camp",
     "description": "Make projects — go to a hacker camp (WIP)",
     "website": "https://christianwell.github.io/camp/",
