@@ -1,5 +1,40 @@
 [
   {
+    "name": "Camp",
+    "description": "Make projects — go to a hacker camp (WIP)",
+    "website": "https://christianwell.github.io/camp/",
+    "slack": "https://hackclub.slack.com/archives/C09LYU1S23Y",
+    "deadline": "draft"
+  },
+  {
+    "name": "Endpointer",
+    "description": "You Ship REST API, We Ship Raspberry Pi or Cloud Credits. Ping Artem or Rushmore for any questions!",
+    "website": "https://endpointer.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C097M5JRT7F",
+    "deadline": "2025-08-17T11:59:00-04:00"
+  },
+  {
+    "name": "Storyboard (October)",
+    "description": "Track your art and coding hours, create a visual novel based on a new genre every month, and get cool prizes",
+    "website": "https://storyboard.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C095E84SE1X",
+    "deadline": "2025-10-31T23:59:59-04:00"
+  },
+  {
+    "name": "Portal VR",
+    "description": "Build your own VR or AR application and we will ship you a VR headset",
+    "website": "https://portalvr.hackclub.com",
+    "slack": "https://hackclub.slack.com/archives/C096CPJ1HCN",
+    "deadline": "2025-08-23T23:59:59-04:00"
+  },
+  {
+    "name": "Swirl v2",
+    "description": "Build a website, get free ice cream!",
+    "website": "https://swirl.hackclub.com/",
+    "slack": "https://hackclub.slack.com/archives/C08FR0LMVHD",
+    "deadline": "2025-12-21T23:59:59-04:00"
+  },
+  {
     "name": "Craft",
     "description": "Ship a Minecraft plugin/mod/map & get rewards! Complete onboarding to participate.",
     "website": "https://craft.hackclub.com/",
@@ -77,7 +112,7 @@
     "deadline": "undefined"
   },
   {
-    "name": "ACES",
+    "name": "Aces",
     "description": "Design your own virtual board or card game, receive a grant to get it physically made, and an invite to an in-person hackathon in Washington D.C!",
     "website": "https://aces.hackclub.com/?ref=47",
     "slack": "https://hackclub.slack.com/archives/C09L87DU3T5",
@@ -805,11 +840,11 @@
     "deadline": "2025-08-03T23:59:59-04:00"
   },
   {
-    "name": "Authmate",
-    "description": "Build a creative authentication system from scratch, Get ???",
-    "website": null,
+    "name": "Authly",
+    "description": "Build the weirdest auth, get Yubico Security Keys, NFC tags, VPN routers, antivirus",
+    "website": "https://authly.hackclub.com",
     "slack": "https://hackclub.slack.com/archives/C0963JU3CSD",
-    "deadline": "draft"
+    "deadline": "2025-08-31T23:59:59-04:00"
   },
   {
     "name": "Hack A Home",
